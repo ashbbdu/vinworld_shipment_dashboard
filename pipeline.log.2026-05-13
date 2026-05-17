@@ -1,0 +1,4 @@
+[2026-05-13 11:08:37,818] [INFO] [pipeline.excel] Parsed 854 shipment IDs from Excel
+[2026-05-13 11:17:47,284] [ERROR] [pipeline.jobs.excel_ingest] Excel ingest failed: ❌ Local file not found: /Users/ashishsrivastava/Downloads/vin_world_shipment_dashboard/excel_files_latest/Active11_12May`.xlsx
+[2026-05-13 11:18:20,311] [INFO] [pipeline.excel] Parsed 6 shipment IDs from Excel
+[2026-05-13 14:54:30,580] [INFO] [pipeline.excel] Parsed 1 shipment IDs from Excel

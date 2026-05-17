@@ -1,0 +1,5 @@
+[2026-04-29 11:16:24,325] [INFO] [pipeline.excel] Parsed 2 shipment IDs from Excel
+[2026-04-29 19:52:06,423] [INFO] [pipeline.excel] Parsed 2 shipment IDs from Excel
+[2026-04-29 19:52:27,644] [ERROR] [pipeline.jobs.excel_ingest] Excel ingest failed: ❌ Local file not found: /Users/ashishsrivastava/Downloads/vin_world_shipment_dashboard/excel_files_latest/Viking01.xlsx
+[2026-04-29 19:52:58,284] [INFO] [pipeline.excel] Parsed 34 shipment IDs from Excel
+[2026-04-29 19:58:30,141] [INFO] [pipeline.excel] Parsed 34 shipment IDs from Excel

@@ -1,0 +1,13 @@
+[2026-05-08 13:18:58,369] [INFO] [pipeline.excel] Parsed 880 shipment IDs from Excel
+[2026-05-08 13:23:32,011] [INFO] [pipeline.excel] Parsed 1 shipment IDs from Excel
+[2026-05-08 13:25:42,349] [INFO] [pipeline.excel] Parsed 880 shipment IDs from Excel
+[2026-05-08 15:48:09,029] [INFO] [pipeline.excel] Parsed 880 shipment IDs from Excel
+[2026-05-08 15:51:28,113] [ERROR] [pipeline.jobs.excel_ingest] Excel ingest failed: name '_download_and_store' is not defined
+[2026-05-08 15:52:41,484] [ERROR] [pipeline.jobs.excel_ingest] Excel ingest failed: _download_and_store() missing 1 required positional argument: 'settings'
+[2026-05-08 15:55:42,964] [INFO] [pipeline.excel] Parsed 880 shipment IDs from Excel
+[2026-05-08 15:55:47,104] [INFO] [pipeline.jobs.excel_ingest] Found 0 new out of 866
+[2026-05-08 15:58:05,716] [INFO] [pipeline.excel] Parsed 880 shipment IDs from Excel
+[2026-05-08 15:58:09,407] [INFO] [pipeline.jobs.excel_ingest] Found 1 new out of 866
+[2026-05-08 16:19:42,931] [INFO] [pipeline.excel] Parsed 880 shipment IDs from Excel
+[2026-05-08 16:25:27,933] [INFO] [pipeline.excel] Parsed 880 shipment IDs from Excel
+[2026-05-08 16:25:31,528] [INFO] [pipeline.jobs.excel_ingest] Found 107 new out of 866

@@ -1,0 +1,9 @@
+[2026-05-05 11:24:19,503] [INFO] [pipeline.excel] Parsed 2 shipment IDs from Excel
+[2026-05-05 16:04:57,930] [INFO] [pipeline.jobs.sync_sea] [SEA SYNC] Found 56 critical shipments
+[2026-05-05 16:08:10,370] [INFO] [pipeline.jobs.sync_sea] [SEA REVERSE] Found 87 reverse shipments
+[2026-05-05 23:23:43,914] [INFO] [pipeline.jobs.sync_sea] [SEA SYNC] Found 57 critical shipments
+[2026-05-05 23:36:27,115] [INFO] [pipeline.jobs.sync_sea] [SEA REVERSE] Found 87 reverse shipments
+[2026-05-05 23:43:30,952] [INFO] [pipeline.jobs.sync_sea] [SEA REVERSE] Found 82 reverse shipments
+[2026-05-05 23:48:00,680] [WARNING] [pipeline.cargowise] Document fetch failed for SSDVW0025504: HTTPSConnectionPool(host='eadaptor-prod.glweststardubai.com', port=443): Read timed out. (read timeout=60)
+[2026-05-05 23:51:33,296] [INFO] [pipeline.jobs.sync_sea] [SEA REVERSE] Found 80 reverse shipments
+[2026-05-05 23:58:31,325] [INFO] [pipeline.excel] Parsed 1 shipment IDs from Excel

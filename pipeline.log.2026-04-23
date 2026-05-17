@@ -1,0 +1,42 @@
+[2026-04-23 09:41:41,570] [INFO] [pipeline.excel] Parsed 12 shipment IDs from Excel
+[2026-04-23 09:42:47,845] [INFO] [pipeline.excel] Parsed 12 shipment IDs from Excel
+[2026-04-23 09:43:21,012] [INFO] [pipeline.excel] Parsed 12 shipment IDs from Excel
+[2026-04-23 10:07:19,690] [INFO] [pipeline.excel] Parsed 12 shipment IDs from Excel
+[2026-04-23 10:09:29,927] [INFO] [pipeline.excel] Parsed 12 shipment IDs from Excel
+[2026-04-23 10:20:30,358] [INFO] [pipeline.excel] Parsed 12 shipment IDs from Excel
+[2026-04-23 10:23:27,784] [INFO] [pipeline.excel] Parsed 12 shipment IDs from Excel
+[2026-04-23 10:24:56,392] [INFO] [pipeline.jobs.sync_sea] [SEA SYNC] Found 8 critical shipments
+[2026-04-23 10:27:35,148] [INFO] [pipeline.excel] Parsed 12 shipment IDs from Excel
+[2026-04-23 10:28:23,038] [INFO] [pipeline.jobs.sync_sea] [SEA SYNC] Found 8 critical shipments
+[2026-04-23 10:29:44,821] [INFO] [pipeline.jobs.sync_sea] [SEA REVERSE] Found 32 reverse shipments
+[2026-04-23 10:30:46,824] [INFO] [pipeline.excel] Parsed 12 shipment IDs from Excel
+[2026-04-23 10:31:30,977] [INFO] [pipeline.jobs.sync_sea] [SEA SYNC] Found 8 critical shipments
+[2026-04-23 10:33:32,964] [INFO] [pipeline.excel] Parsed 12 shipment IDs from Excel
+[2026-04-23 10:34:26,685] [INFO] [pipeline.jobs.sync_sea] [SEA SYNC] Found 8 critical shipments
+[2026-04-23 10:38:51,471] [INFO] [pipeline.excel] Parsed 12 shipment IDs from Excel
+[2026-04-23 10:39:37,163] [INFO] [pipeline.jobs.sync_sea] [SEA SYNC] Found 8 critical shipments
+[2026-04-23 10:40:12,247] [INFO] [pipeline.jobs.sync_sea] [SEA REVERSE] Found 32 reverse shipments
+[2026-04-23 10:43:04,249] [INFO] [pipeline.excel] Parsed 12 shipment IDs from Excel
+[2026-04-23 10:44:33,763] [INFO] [pipeline.jobs.sync_sea] [SEA SYNC] Found 8 critical shipments
+[2026-04-23 10:45:30,847] [INFO] [pipeline.jobs.sync_sea] [SEA REVERSE] Found 32 reverse shipments
+[2026-04-23 11:17:04,120] [INFO] [pipeline.excel] Parsed 40 shipment IDs from Excel
+[2026-04-23 11:19:43,440] [INFO] [pipeline.excel] Parsed 40 shipment IDs from Excel
+[2026-04-23 11:21:28,304] [INFO] [pipeline.excel] Parsed 25 shipment IDs from Excel
+[2026-04-23 11:22:57,800] [INFO] [pipeline.excel] Parsed 20 shipment IDs from Excel
+[2026-04-23 11:24:32,914] [INFO] [pipeline.jobs.sync_sea] [SEA SYNC] Found 20 critical shipments
+[2026-04-23 11:25:43,493] [INFO] [pipeline.jobs.sync_sea] [SEA REVERSE] Found 49 reverse shipments
+[2026-04-23 11:26:32,593] [INFO] [pipeline.excel] Parsed 19 shipment IDs from Excel
+[2026-04-23 11:28:29,124] [INFO] [pipeline.excel] Parsed 19 shipment IDs from Excel
+[2026-04-23 11:28:53,297] [INFO] [pipeline.excel] Parsed 89 shipment IDs from Excel
+[2026-04-23 12:55:29,328] [INFO] [pipeline.sftp] SFTP connected, working directory: /vinworld_shipment_dashboard
+[2026-04-23 12:55:32,470] [INFO] [pipeline.sftp] Downloaded Shipment Profile Report (2026-04-23 07-03-01).XLSX to /tmp/pipeline_downloads/Shipment Profile Report (2026-04-23 07-03-01).XLSX
+[2026-04-23 12:55:33,812] [INFO] [pipeline.excel] Parsed 4149 shipment IDs from Excel
+[2026-04-23 12:55:37,676] [INFO] [pipeline.sftp] Deleted Shipment Profile Report (2026-04-23 07-03-01).XLSX from SFTP
+[2026-04-23 12:55:38,416] [INFO] [pipeline.jobs.excel_ingest] Found 1058 new shipments out of 1145
+[2026-04-23 12:55:38,417] [INFO] [pipeline.sftp] SFTP connection closed
+[2026-04-23 12:55:43,147] [INFO] [pipeline.sftp] SFTP connected, working directory: /vinworld_shipment_dashboard
+[2026-04-23 12:55:46,229] [INFO] [pipeline.sftp] Downloaded Shipment Profile Report (2026-04-23 04-03-30).XLSX to /tmp/pipeline_downloads/Shipment Profile Report (2026-04-23 04-03-30).XLSX
+[2026-04-23 12:55:47,393] [INFO] [pipeline.excel] Parsed 4149 shipment IDs from Excel
+[2026-04-23 12:55:50,248] [INFO] [pipeline.sftp] Deleted Shipment Profile Report (2026-04-23 04-03-30).XLSX from SFTP
+[2026-04-23 12:55:51,206] [INFO] [pipeline.jobs.excel_ingest] Found 1058 new shipments out of 1145
+[2026-04-23 12:55:51,207] [INFO] [pipeline.sftp] SFTP connection closed

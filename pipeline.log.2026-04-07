@@ -1,0 +1,10 @@
+[2026-04-07 17:09:58,269] [INFO] [pipeline.sftp] SFTP connected, working directory: /vinworld_shipment_dashboard
+[2026-04-07 17:10:01,088] [INFO] [pipeline.sftp] Downloaded Shipment Profile Report (2026-04-07 10-02-05).XLSX to /tmp/pipeline_downloads/Shipment Profile Report (2026-04-07 10-02-05).XLSX
+[2026-04-07 17:10:02,349] [INFO] [pipeline.excel] Parsed 784 shipment IDs from Excel
+[2026-04-07 17:10:05,067] [INFO] [pipeline.sftp] Deleted Shipment Profile Report (2026-04-07 10-02-05).XLSX from SFTP
+[2026-04-07 17:10:05,893] [INFO] [pipeline.jobs.excel_ingest] Found 710 new shipments out of 755
+[2026-04-07 17:10:05,894] [INFO] [pipeline.sftp] SFTP connection closed
+[2026-04-07 17:12:27,621] [INFO] [pipeline.jobs.sync_sea] [SEA SYNC] Found 8 critical shipments
+[2026-04-07 17:13:18,994] [INFO] [pipeline.jobs.sync_sea] [SEA REVERSE] Found 32 reverse shipments
+[2026-04-07 23:27:45,337] [ERROR] [pipeline.jobs.excel_ingest] Excel ingest failed: ❌ Local file not found: /Users/ashishsrivastava/Downloads/vin_world_shipment_dashboard/VWVIKPROGRR.xlxs
+[2026-04-07 23:28:17,951] [INFO] [pipeline.excel] Parsed 69 shipment IDs from Excel

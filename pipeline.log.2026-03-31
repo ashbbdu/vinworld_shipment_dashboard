@@ -1,0 +1,72 @@
+[2026-03-31 12:22:05,842] [INFO] [pipeline.jobs.excel_ingest] 📂 Using LOCAL file: /Users/ashishsrivastava/Downloads/vin_world_shipment_dashboard/ShipmetList.xlsx
+[2026-03-31 12:22:07,153] [INFO] [pipeline.excel] Parsed 7756 shipment IDs from Excel
+[2026-03-31 12:22:17,903] [INFO] [pipeline.jobs.excel_ingest] Parsed 7756 shipments from ShipmetList.xlsx
+[2026-03-31 12:22:19,256] [INFO] [pipeline.jobs.excel_ingest] Found 3883 new shipments out of 7756
+[2026-03-31 12:22:24,372] [INFO] [pipeline.jobs.processing] [excel_ingest] Processing 3883 shipments
+[2026-03-31 12:22:31,144] [ERROR] [pipeline.jobs.processing] Failed processing SODVW0025806: 500 Server Error: Internal Server Error for url: https://eadaptor-prod.glweststardubai.com/eAdaptor
+[2026-03-31 12:22:31,144] [ERROR] [pipeline.jobs.processing] Failed processing SAEVW0022650: 500 Server Error: Internal Server Error for url: https://eadaptor-prod.glweststardubai.com/eAdaptor
+[2026-03-31 12:22:31,319] [ERROR] [pipeline.jobs.processing] Failed processing SSEVW0020715: 500 Server Error: Internal Server Error for url: https://eadaptor-prod.glweststardubai.com/eAdaptor
+[2026-03-31 12:22:31,587] [ERROR] [pipeline.jobs.processing] Failed processing SODVW0026370: 500 Server Error: Internal Server Error for url: https://eadaptor-prod.glweststardubai.com/eAdaptor
+[2026-03-31 12:56:19,778] [INFO] [pipeline.jobs.excel_ingest] 📂 Using LOCAL file: /Users/ashishsrivastava/Downloads/vin_world_shipment_dashboard/ShipmetList.xlsx
+[2026-03-31 12:56:21,192] [INFO] [pipeline.excel] Parsed 7756 shipment IDs from Excel
+[2026-03-31 12:56:31,621] [INFO] [pipeline.jobs.excel_ingest] Parsed 7756 shipments from ShipmetList.xlsx
+[2026-03-31 12:56:33,196] [INFO] [pipeline.jobs.excel_ingest] Found 3220 new shipments out of 7756
+[2026-03-31 12:56:39,031] [INFO] [pipeline.jobs.processing] [excel_ingest] Processing 3220 shipments
+[2026-03-31 14:04:58,387] [ERROR] [pipeline.jobs.excel_ingest] Excel ingest failed: ❌ Local file not found: /Users/ashishsrivastava/Downloads/vin_world_shipment_dashboard/ShipmetListVikings.xlsx
+[2026-03-31 14:05:34,604] [INFO] [pipeline.jobs.excel_ingest] 📂 Using LOCAL file: /Users/ashishsrivastava/Downloads/vin_world_shipment_dashboard/ShipmentListVikings.xlsx
+[2026-03-31 14:05:35,694] [INFO] [pipeline.excel] Parsed 151 shipment IDs from Excel
+[2026-03-31 14:05:36,971] [INFO] [pipeline.jobs.excel_ingest] Parsed 151 shipments from ShipmentListVikings.xlsx
+[2026-03-31 14:05:38,498] [INFO] [pipeline.jobs.excel_ingest] Found 15 new shipments out of 151
+[2026-03-31 14:05:39,513] [INFO] [pipeline.jobs.processing] [excel_ingest] Processing 15 shipments
+[2026-03-31 14:06:26,479] [INFO] [pipeline.jobs.processing] [excel_ingest] Done: 15 completed, 0 failed
+[2026-03-31 14:06:34,264] [INFO] [pipeline.jobs.processing] [air_sync] Processing 3820 shipments
+[2026-03-31 14:11:20,328] [INFO] [pipeline.jobs.excel_ingest] 📂 Using LOCAL file: /Users/ashishsrivastava/Downloads/vin_world_shipment_dashboard/ShipmentListVikings.xlsx
+[2026-03-31 14:11:21,335] [INFO] [pipeline.excel] Parsed 151 shipment IDs from Excel
+[2026-03-31 14:11:22,499] [INFO] [pipeline.jobs.excel_ingest] Parsed 151 shipments from ShipmentListVikings.xlsx
+[2026-03-31 14:11:23,186] [INFO] [pipeline.jobs.excel_ingest] Found 151 new shipments out of 151
+[2026-03-31 14:11:24,120] [INFO] [pipeline.jobs.processing] [excel_ingest] Processing 151 shipments
+[2026-03-31 14:18:07,317] [INFO] [pipeline.jobs.processing] [excel_ingest] Done: 151 completed, 0 failed
+[2026-03-31 14:18:09,891] [INFO] [pipeline.jobs.sync_sea] [SEA SYNC] Found 7 critical shipments
+[2026-03-31 14:43:08,374] [INFO] [pipeline.jobs.excel_ingest] 📂 Using LOCAL file: /Users/ashishsrivastava/Downloads/vin_world_shipment_dashboard/Shipments25-26.xlsx
+[2026-03-31 14:43:09,465] [INFO] [pipeline.excel] Parsed 397 shipment IDs from Excel
+[2026-03-31 14:43:10,993] [INFO] [pipeline.jobs.excel_ingest] Parsed 397 shipments from Shipments25-26.xlsx
+[2026-03-31 14:43:11,744] [INFO] [pipeline.jobs.excel_ingest] Found 397 new shipments out of 397
+[2026-03-31 14:43:12,762] [INFO] [pipeline.jobs.processing] [excel_ingest] Processing 397 shipments
+[2026-03-31 15:00:42,987] [INFO] [pipeline.jobs.processing] [excel_ingest] Done: 397 completed, 0 failed
+[2026-03-31 15:00:45,497] [INFO] [pipeline.jobs.sync_sea] [SEA SYNC] Found 7 critical shipments
+[2026-03-31 15:01:57,641] [INFO] [pipeline.jobs.excel_ingest] 📂 Using LOCAL file: /Users/ashishsrivastava/Downloads/vin_world_shipment_dashboard/Tent&Table25-26.xlsx
+[2026-03-31 15:01:58,782] [INFO] [pipeline.excel] Parsed 85 shipment IDs from Excel
+[2026-03-31 15:01:59,844] [INFO] [pipeline.jobs.excel_ingest] Parsed 85 shipments from Tent&Table25-26.xlsx
+[2026-03-31 15:02:00,634] [INFO] [pipeline.jobs.excel_ingest] Found 85 new shipments out of 85
+[2026-03-31 15:02:01,691] [INFO] [pipeline.jobs.processing] [excel_ingest] Processing 85 shipments
+[2026-03-31 15:05:58,136] [INFO] [pipeline.jobs.processing] [excel_ingest] Done: 85 completed, 0 failed
+[2026-03-31 15:06:02,029] [INFO] [pipeline.jobs.processing] [air_sync] Processing 3 shipments
+[2026-03-31 15:07:39,527] [INFO] [pipeline.jobs.excel_ingest] 📂 Using LOCAL file: /Users/ashishsrivastava/Downloads/vin_world_shipment_dashboard/FederalGroup25-26.xlsx
+[2026-03-31 15:07:40,673] [INFO] [pipeline.excel] Parsed 105 shipment IDs from Excel
+[2026-03-31 15:07:42,004] [INFO] [pipeline.jobs.excel_ingest] Parsed 105 shipments from FederalGroup25-26.xlsx
+[2026-03-31 15:07:42,802] [INFO] [pipeline.jobs.excel_ingest] Found 105 new shipments out of 105
+[2026-03-31 15:07:43,871] [INFO] [pipeline.jobs.processing] [excel_ingest] Processing 105 shipments
+[2026-03-31 15:12:34,889] [INFO] [pipeline.jobs.processing] [excel_ingest] Done: 105 completed, 0 failed
+[2026-03-31 15:14:19,477] [INFO] [pipeline.jobs.excel_ingest] 📂 Using LOCAL file: /Users/ashishsrivastava/Downloads/vin_world_shipment_dashboard/TechRim25-26.xlsx
+[2026-03-31 15:14:20,622] [INFO] [pipeline.excel] Parsed 60 shipment IDs from Excel
+[2026-03-31 15:14:21,695] [INFO] [pipeline.jobs.excel_ingest] Parsed 60 shipments from TechRim25-26.xlsx
+[2026-03-31 15:14:22,490] [INFO] [pipeline.jobs.excel_ingest] Found 60 new shipments out of 60
+[2026-03-31 15:14:23,555] [INFO] [pipeline.jobs.processing] [excel_ingest] Processing 60 shipments
+[2026-03-31 15:17:25,999] [INFO] [pipeline.jobs.processing] [excel_ingest] Done: 60 completed, 0 failed
+[2026-03-31 15:17:30,347] [INFO] [pipeline.jobs.processing] [air_sync] Processing 36 shipments
+[2026-03-31 15:19:18,750] [INFO] [pipeline.jobs.processing] [air_sync] Done: 36 completed, 0 failed
+[2026-03-31 15:19:19,601] [INFO] [pipeline.jobs.sync_sea] [SEA SYNC] Found 10 critical shipments
+[2026-03-31 15:19:21,530] [INFO] [pipeline.jobs.processing] [sea_sync] Processing 10 shipments
+[2026-03-31 15:19:51,437] [INFO] [pipeline.jobs.processing] [sea_sync] Done: 10 completed, 0 failed
+[2026-03-31 15:20:53,648] [INFO] [pipeline.jobs.excel_ingest] 📂 Using LOCAL file: /Users/ashishsrivastava/Downloads/vin_world_shipment_dashboard/TechRim25-26.xlsx
+[2026-03-31 15:20:54,665] [INFO] [pipeline.excel] Parsed 60 shipment IDs from Excel
+[2026-03-31 15:20:55,620] [INFO] [pipeline.jobs.excel_ingest] Parsed 60 shipments from TechRim25-26.xlsx
+[2026-03-31 15:20:56,337] [INFO] [pipeline.jobs.excel_ingest] Found 0 new shipments out of 60
+[2026-03-31 15:21:00,331] [INFO] [pipeline.jobs.processing] [air_sync] Processing 36 shipments
+[2026-03-31 15:22:04,175] [INFO] [pipeline.jobs.excel_ingest] 📂 Using LOCAL file: /Users/ashishsrivastava/Downloads/vin_world_shipment_dashboard/TechRim_Updated25-26.xlsx
+[2026-03-31 15:22:05,185] [INFO] [pipeline.excel] Parsed 61 shipment IDs from Excel
+[2026-03-31 15:22:06,278] [INFO] [pipeline.jobs.excel_ingest] Parsed 61 shipments from TechRim_Updated25-26.xlsx
+[2026-03-31 15:22:07,037] [INFO] [pipeline.jobs.excel_ingest] Found 1 new shipments out of 61
+[2026-03-31 15:22:08,146] [INFO] [pipeline.jobs.processing] [excel_ingest] Processing 1 shipments
+[2026-03-31 15:22:17,849] [INFO] [pipeline.jobs.processing] [excel_ingest] Done: 1 completed, 0 failed
+[2026-03-31 15:22:21,741] [INFO] [pipeline.jobs.processing] [air_sync] Processing 36 shipments

@@ -1,0 +1,12 @@
+[2026-04-22 21:23:49,336] [INFO] [pipeline.sftp] SFTP connected, working directory: /vinworld_shipment_dashboard
+[2026-04-22 21:23:52,466] [INFO] [pipeline.sftp] Downloaded Shipment Profile Report (2026-04-22 13-02-56).XLSX to /tmp/pipeline_downloads/Shipment Profile Report (2026-04-22 13-02-56).XLSX
+[2026-04-22 21:23:53,835] [INFO] [pipeline.excel] Parsed 4244 shipment IDs from Excel
+[2026-04-22 21:23:57,779] [INFO] [pipeline.sftp] Deleted Shipment Profile Report (2026-04-22 13-02-56).XLSX from SFTP
+[2026-04-22 21:23:58,613] [INFO] [pipeline.jobs.excel_ingest] Found 1152 new shipments out of 1216
+[2026-04-22 21:23:58,614] [INFO] [pipeline.sftp] SFTP connection closed
+[2026-04-22 21:24:23,692] [INFO] [pipeline.sftp] SFTP connected, working directory: /vinworld_shipment_dashboard
+[2026-04-22 21:24:26,637] [INFO] [pipeline.sftp] Downloaded Shipment Profile Report (2026-04-22 10-02-55).XLSX to /tmp/pipeline_downloads/Shipment Profile Report (2026-04-22 10-02-55).XLSX
+[2026-04-22 21:24:27,917] [INFO] [pipeline.excel] Parsed 4240 shipment IDs from Excel
+[2026-04-22 21:24:31,796] [INFO] [pipeline.sftp] Deleted Shipment Profile Report (2026-04-22 10-02-55).XLSX from SFTP
+[2026-04-22 21:24:32,715] [INFO] [pipeline.jobs.excel_ingest] Found 1148 new shipments out of 1212
+[2026-04-22 21:24:32,716] [INFO] [pipeline.sftp] SFTP connection closed

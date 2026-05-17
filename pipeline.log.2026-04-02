@@ -1,0 +1,61 @@
+[2026-04-02 09:59:43,266] [INFO] [pipeline.jobs.excel_ingest] 📂 Using LOCAL file: /Users/ashishsrivastava/Downloads/vin_world_shipment_dashboard/TechRim_Updatedd25-26.xlsx
+[2026-04-02 10:00:14,966] [INFO] [pipeline.sftp] SFTP connected, working directory: /vinworld_shipment_dashboard
+[2026-04-02 10:00:17,880] [INFO] [pipeline.sftp] Downloaded Shipment Profile Report (2026-04-02 04-02-01).XLSX to /tmp/pipeline_downloads/Shipment Profile Report (2026-04-02 04-02-01).XLSX
+[2026-04-02 10:00:19,044] [INFO] [pipeline.excel] Parsed 4118 shipment IDs from Excel
+[2026-04-02 10:00:25,204] [INFO] [pipeline.jobs.excel_ingest] Parsed 4118 shipments from Shipment Profile Report (2026-04-02 04-02-01).XLSX
+[2026-04-02 10:00:26,059] [INFO] [pipeline.sftp] Deleted Shipment Profile Report (2026-04-02 04-02-01).XLSX from SFTP
+[2026-04-02 10:00:27,286] [INFO] [pipeline.jobs.excel_ingest] Found 94 new shipments out of 4118
+[2026-04-02 10:00:27,287] [INFO] [pipeline.sftp] SFTP connection closed
+[2026-04-02 10:00:28,312] [INFO] [pipeline.jobs.processing] [excel_ingest] Processing 94 shipments
+[2026-04-02 10:00:34,735] [ERROR] [pipeline.jobs.processing] Failed processing SAEVC0000319: 500 Server Error: Internal Server Error for url: https://eadaptor-prod.glweststardubai.com/eAdaptor
+[2026-04-02 10:00:34,758] [ERROR] [pipeline.jobs.processing] Failed processing SAEVC0000317: 500 Server Error: Internal Server Error for url: https://eadaptor-prod.glweststardubai.com/eAdaptor
+[2026-04-02 10:00:35,079] [ERROR] [pipeline.jobs.processing] Failed processing SAEVW0023555: 500 Server Error: Internal Server Error for url: https://eadaptor-prod.glweststardubai.com/eAdaptor
+[2026-04-02 10:04:43,564] [INFO] [pipeline.notifications] Email sent: [Pipeline Alert] excel_ingest — 3 of 94 shipments failed
+[2026-04-02 10:04:43,567] [INFO] [pipeline.jobs.processing] [excel_ingest] Done: 91 completed, 3 failed
+[2026-04-02 10:04:49,665] [INFO] [pipeline.jobs.processing] [air_sync] Processing 610 shipments
+[2026-04-02 10:06:05,049] [INFO] [pipeline.jobs.excel_ingest] 📂 Using LOCAL file: /Users/ashishsrivastava/Downloads/vin_world_shipment_dashboard/Shipment Profile Report (2026-04-02 04-02-01).xlsx
+[2026-04-02 10:06:06,186] [INFO] [pipeline.excel] Parsed 4118 shipment IDs from Excel
+[2026-04-02 10:06:12,549] [INFO] [pipeline.jobs.excel_ingest] Parsed 4118 shipments from Shipment Profile Report (2026-04-02 04-02-01).xlsx
+[2026-04-02 10:06:13,927] [INFO] [pipeline.jobs.excel_ingest] Found 3 new shipments out of 4118
+[2026-04-02 10:06:14,940] [INFO] [pipeline.jobs.processing] [excel_ingest] Processing 3 shipments
+[2026-04-02 10:06:30,234] [INFO] [pipeline.jobs.processing] [excel_ingest] Done: 3 completed, 0 failed
+[2026-04-02 10:06:35,179] [INFO] [pipeline.jobs.processing] [air_sync] Processing 613 shipments
+[2026-04-02 10:40:13,790] [INFO] [pipeline.jobs.processing] [air_sync] Done: 613 completed, 0 failed
+[2026-04-02 10:40:14,600] [INFO] [pipeline.jobs.sync_sea] [SEA SYNC] Found 55 critical shipments
+[2026-04-02 10:40:16,750] [INFO] [pipeline.jobs.processing] [sea_sync] Processing 55 shipments
+[2026-04-02 10:42:55,141] [INFO] [pipeline.jobs.processing] [sea_sync] Done: 55 completed, 0 failed
+[2026-04-02 10:43:26,760] [INFO] [pipeline.jobs.sync_sea] [SEA REVERSE] Found 706 reverse shipments
+[2026-04-02 10:43:29,533] [INFO] [pipeline.jobs.processing] [sea_reverse] Processing 706 shipments
+[2026-04-02 11:17:10,124] [INFO] [pipeline.jobs.processing] [sea_reverse] Done: 706 completed, 0 failed
+[2026-04-02 18:50:11,803] [INFO] [pipeline.sftp] SFTP connected, working directory: /vinworld_shipment_dashboard
+[2026-04-02 18:50:14,564] [INFO] [pipeline.sftp] Downloaded Shipment Profile Report (2026-04-02 13-01-41).XLSX to /tmp/pipeline_downloads/Shipment Profile Report (2026-04-02 13-01-41).XLSX
+[2026-04-02 18:50:15,836] [INFO] [pipeline.excel] Parsed 4126 shipment IDs from Excel
+[2026-04-02 18:50:22,498] [INFO] [pipeline.jobs.excel_ingest] Parsed 4126 shipments from Shipment Profile Report (2026-04-02 13-01-41).XLSX
+[2026-04-02 18:50:23,241] [INFO] [pipeline.sftp] Deleted Shipment Profile Report (2026-04-02 13-01-41).XLSX from SFTP
+[2026-04-02 18:50:24,622] [INFO] [pipeline.jobs.excel_ingest] Found 6 new shipments out of 4126
+[2026-04-02 18:50:24,623] [INFO] [pipeline.sftp] SFTP connection closed
+[2026-04-02 18:50:25,793] [INFO] [pipeline.jobs.processing] [excel_ingest] Processing 6 shipments
+[2026-04-02 18:50:32,372] [ERROR] [pipeline.jobs.processing] Failed processing SAEVW0026418: 403 Client Error: Forbidden for url: https://eadaptor-prod.glweststardubai.com/eAdaptor
+[2026-04-02 18:50:32,372] [ERROR] [pipeline.jobs.processing] Failed processing SODVW0027594: 403 Client Error: Forbidden for url: https://eadaptor-prod.glweststardubai.com/eAdaptor
+[2026-04-02 18:50:32,373] [ERROR] [pipeline.jobs.processing] Failed processing SAEVC0000321: 403 Client Error: Forbidden for url: https://eadaptor-prod.glweststardubai.com/eAdaptor
+[2026-04-02 18:50:32,373] [ERROR] [pipeline.jobs.processing] Failed processing SAEVW0027958: 403 Client Error: Forbidden for url: https://eadaptor-prod.glweststardubai.com/eAdaptor
+[2026-04-02 18:50:32,655] [ERROR] [pipeline.jobs.processing] Failed processing SSEVC0000235: 403 Client Error: Forbidden for url: https://eadaptor-prod.glweststardubai.com/eAdaptor
+[2026-04-02 18:50:35,422] [WARNING] [pipeline.jobs.processing] [excel_ingest] Circuit breaker triggered after 5 consecutive failures
+[2026-04-02 18:50:36,966] [ERROR] [pipeline.jobs.processing] Failed processing SSIVW0027959: 403 Client Error: Forbidden for url: https://eadaptor-prod.glweststardubai.com/eAdaptor
+[2026-04-02 18:50:43,287] [INFO] [pipeline.notifications] Email sent: [Pipeline Alert] CargoWise appears down — excel_ingest halted
+[2026-04-02 18:50:49,156] [INFO] [pipeline.notifications] Email sent: [Pipeline Alert] excel_ingest — 6 of 6 shipments failed
+[2026-04-02 18:50:49,157] [INFO] [pipeline.jobs.processing] [excel_ingest] Done: 0 completed, 6 failed
+[2026-04-02 19:23:53,840] [INFO] [pipeline.sftp] SFTP connected, working directory: /vinworld_shipment_dashboard
+[2026-04-02 19:23:56,919] [INFO] [pipeline.sftp] Downloaded Shipment Profile Report (2026-04-02 10-01-36).XLSX to /tmp/pipeline_downloads/Shipment Profile Report (2026-04-02 10-01-36).XLSX
+[2026-04-02 19:23:58,107] [INFO] [pipeline.excel] Parsed 4119 shipment IDs from Excel
+[2026-04-02 19:24:04,308] [INFO] [pipeline.jobs.excel_ingest] Parsed 4119 shipments from Shipment Profile Report (2026-04-02 10-01-36).XLSX
+[2026-04-02 19:24:05,099] [INFO] [pipeline.sftp] Deleted Shipment Profile Report (2026-04-02 10-01-36).XLSX from SFTP
+[2026-04-02 19:24:06,403] [INFO] [pipeline.jobs.excel_ingest] Found 1 new shipments out of 4119
+[2026-04-02 19:24:06,404] [INFO] [pipeline.sftp] SFTP connection closed
+[2026-04-02 19:24:07,438] [INFO] [pipeline.jobs.processing] [excel_ingest] Processing 1 shipments
+[2026-04-02 19:24:18,719] [INFO] [pipeline.jobs.processing] [excel_ingest] Done: 1 completed, 0 failed
+[2026-04-02 19:24:23,160] [INFO] [pipeline.jobs.processing] [air_sync] Processing 613 shipments
+[2026-04-02 19:52:15,922] [INFO] [pipeline.jobs.processing] [air_sync] Done: 613 completed, 0 failed
+[2026-04-02 19:52:16,843] [INFO] [pipeline.jobs.sync_sea] [SEA SYNC] Found 54 critical shipments
+[2026-04-02 19:52:18,995] [INFO] [pipeline.jobs.processing] [sea_sync] Processing 54 shipments
+[2026-04-02 19:55:09,410] [INFO] [pipeline.jobs.processing] [sea_sync] Done: 54 completed, 0 failed

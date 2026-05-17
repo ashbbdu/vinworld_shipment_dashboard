@@ -1,0 +1,15 @@
+[Unit]
+Description=VIN World Shipment Pipeline
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /home/ubuntu/pipeline/service.py
+WorkingDirectory=/home/ubuntu/pipeline
+EnvironmentFile=/home/ubuntu/pipeline/.env
+Restart=always
+RestartSec=10
+User=ubuntu
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,34 @@
+[2026-04-01 12:02:22,317] [INFO] [pipeline.sftp] SFTP connected, working directory: /vinworld_shipment_dashboard
+[2026-04-01 12:02:25,229] [INFO] [pipeline.sftp] Downloaded Shipment Profile Report (2026-04-01 04-01-53).XLSX to /tmp/pipeline_downloads/Shipment Profile Report (2026-04-01 04-01-53).XLSX
+[2026-04-01 12:02:26,395] [INFO] [pipeline.excel] Parsed 4144 shipment IDs from Excel
+[2026-04-01 12:02:32,480] [INFO] [pipeline.jobs.excel_ingest] Parsed 4144 shipments from Shipment Profile Report (2026-04-01 04-01-53).XLSX
+[2026-04-01 12:02:33,216] [INFO] [pipeline.sftp] Deleted Shipment Profile Report (2026-04-01 04-01-53).XLSX from SFTP
+[2026-04-01 12:02:33,975] [INFO] [pipeline.jobs.excel_ingest] Found 4056 new shipments out of 4144
+[2026-04-01 12:02:33,976] [INFO] [pipeline.sftp] SFTP connection closed
+[2026-04-01 12:02:39,198] [INFO] [pipeline.jobs.processing] [excel_ingest] Processing 4056 shipments
+[2026-04-01 15:08:41,327] [INFO] [pipeline.jobs.processing] [excel_ingest] Done: 4056 completed, 0 failed
+[2026-04-01 15:08:58,464] [INFO] [pipeline.jobs.processing] [air_sync] Processing 569 shipments
+[2026-04-01 15:16:21,103] [WARNING] [pipeline.jobs.processing] Transient error for SAEVW0020539: HTTPSConnectionPool(host='eadaptor-prod.glweststardubai.com', port=443): Read timed out. (read timeout=60)
+[2026-04-01 15:16:21,588] [WARNING] [pipeline.jobs.processing] Transient error for SAEVW0020653: HTTPSConnectionPool(host='eadaptor-prod.glweststardubai.com', port=443): Read timed out. (read timeout=60)
+[2026-04-01 15:16:22,093] [WARNING] [pipeline.jobs.processing] Transient error for SAEVW0020660: HTTPSConnectionPool(host='eadaptor-prod.glweststardubai.com', port=443): Read timed out. (read timeout=60)
+[2026-04-01 16:12:35,254] [INFO] [pipeline.jobs.excel_ingest] 📂 Using LOCAL file: /Users/ashishsrivastava/Downloads/vin_world_shipment_dashboard/TechRim_Updatedd25-26.xlsx
+[2026-04-01 16:12:36,464] [INFO] [pipeline.excel] Parsed 1 shipment IDs from Excel
+[2026-04-01 16:12:37,490] [INFO] [pipeline.jobs.excel_ingest] Parsed 1 shipments from TechRim_Updatedd25-26.xlsx
+[2026-04-01 16:12:38,893] [INFO] [pipeline.jobs.excel_ingest] Found 0 new shipments out of 1
+[2026-04-01 16:12:43,377] [INFO] [pipeline.jobs.processing] [air_sync] Processing 569 shipments
+[2026-04-01 16:12:50,229] [ERROR] [pipeline.jobs.processing] Failed processing SAIVW0018874: 500 Server Error: Internal Server Error for url: https://eadaptor-prod.glweststardubai.com/eAdaptor
+[2026-04-01 16:12:50,244] [ERROR] [pipeline.jobs.processing] Failed processing SAIVW0018879: 500 Server Error: Internal Server Error for url: https://eadaptor-prod.glweststardubai.com/eAdaptor
+[2026-04-01 16:12:50,336] [ERROR] [pipeline.jobs.processing] Failed processing SAIVW0015589: 500 Server Error: Internal Server Error for url: https://eadaptor-prod.glweststardubai.com/eAdaptor
+[2026-04-01 16:12:50,557] [ERROR] [pipeline.jobs.processing] Failed processing SAIVW0016164: 500 Server Error: Internal Server Error for url: https://eadaptor-prod.glweststardubai.com/eAdaptor
+[2026-04-01 16:18:43,284] [INFO] [pipeline.jobs.excel_ingest] 📂 Using LOCAL file: /Users/ashishsrivastava/Downloads/vin_world_shipment_dashboard/TechRim_Updatedd25-26.xlsx
+[2026-04-01 16:18:44,696] [INFO] [pipeline.excel] Parsed 1 shipment IDs from Excel
+[2026-04-01 16:18:45,843] [INFO] [pipeline.jobs.excel_ingest] Parsed 1 shipments from TechRim_Updatedd25-26.xlsx
+[2026-04-01 16:18:47,449] [INFO] [pipeline.jobs.excel_ingest] Found 0 new shipments out of 1
+[2026-04-01 16:18:52,365] [INFO] [pipeline.jobs.processing] [air_sync] Processing 569 shipments
+[2026-04-01 16:45:44,754] [INFO] [pipeline.jobs.processing] [air_sync] Done: 569 completed, 0 failed
+[2026-04-01 16:45:45,616] [INFO] [pipeline.jobs.sync_sea] [SEA SYNC] Found 48 critical shipments
+[2026-04-01 16:45:47,969] [INFO] [pipeline.jobs.processing] [sea_sync] Processing 48 shipments
+[2026-04-01 16:48:04,490] [INFO] [pipeline.jobs.processing] [sea_sync] Done: 48 completed, 0 failed
+[2026-04-01 16:57:32,514] [INFO] [pipeline.jobs.sync_sea] [SEA REVERSE] Found 697 reverse shipments
+[2026-04-01 16:57:35,744] [INFO] [pipeline.jobs.processing] [sea_reverse] Processing 697 shipments
+[2026-04-01 17:29:44,592] [INFO] [pipeline.jobs.processing] [sea_reverse] Done: 697 completed, 0 failed

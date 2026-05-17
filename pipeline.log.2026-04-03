@@ -1,0 +1,119 @@
+[2026-04-03 10:59:42,563] [INFO] [pipeline.jobs.excel_ingest] 📂 Using LOCAL file: /Users/ashishsrivastava/Downloads/vin_world_shipment_dashboard/Book7.xlsx
+[2026-04-03 10:59:47,139] [INFO] [pipeline.excel] Parsed 1 shipment IDs from Excel
+[2026-04-03 10:59:48,270] [INFO] [pipeline.jobs.excel_ingest] Parsed 1 shipments from Book7.xlsx
+[2026-04-03 10:59:49,705] [INFO] [pipeline.jobs.excel_ingest] Found 1 new shipments out of 1
+[2026-04-03 10:59:50,933] [INFO] [pipeline.jobs.processing] [excel_ingest] Processing 1 shipments
+[2026-04-03 10:59:59,809] [ERROR] [pipeline.jobs.processing] Failed processing SAIVW0024828: name 'extract_service_level_code' is not defined
+[2026-04-03 11:00:06,920] [INFO] [pipeline.notifications] Email sent: [Pipeline Alert] excel_ingest — 1 of 1 shipments failed
+[2026-04-03 11:00:06,921] [INFO] [pipeline.jobs.processing] [excel_ingest] Done: 0 completed, 1 failed
+[2026-04-03 11:00:11,721] [INFO] [pipeline.jobs.processing] [air_sync] Processing 606 shipments
+[2026-04-03 11:00:24,144] [ERROR] [pipeline.jobs.processing] Failed processing SAIVW0018874: name 'extract_service_level_code' is not defined
+[2026-04-03 11:00:26,058] [ERROR] [pipeline.jobs.processing] Failed processing SAIVW0018879: name 'extract_service_level_code' is not defined
+[2026-04-03 11:00:26,364] [ERROR] [pipeline.jobs.processing] Failed processing SAIVW0015928: name 'extract_service_level_code' is not defined
+[2026-04-03 11:00:26,673] [ERROR] [pipeline.jobs.processing] Failed processing SAIVW0016164: name 'extract_service_level_code' is not defined
+[2026-04-03 11:00:26,910] [ERROR] [pipeline.jobs.processing] Failed processing SAIVW0015589: name 'extract_service_level_code' is not defined
+[2026-04-03 11:00:29,462] [WARNING] [pipeline.jobs.processing] [air_sync] Circuit breaker triggered after 5 consecutive failures
+[2026-04-03 11:00:35,799] [ERROR] [pipeline.jobs.processing] Failed processing SAIVW0017512: name 'extract_service_level_code' is not defined
+[2026-04-03 11:00:38,593] [ERROR] [pipeline.jobs.processing] Failed processing SAIVW0018003: name 'extract_service_level_code' is not defined
+[2026-04-03 11:00:38,856] [ERROR] [pipeline.jobs.processing] Failed processing SAIVW0018027: name 'extract_service_level_code' is not defined
+[2026-04-03 11:00:39,471] [ERROR] [pipeline.jobs.processing] Failed processing SAIVW0018468: name 'extract_service_level_code' is not defined
+[2026-04-03 11:00:45,648] [INFO] [pipeline.notifications] Email sent: [Pipeline Alert] CargoWise appears down — air_sync halted
+[2026-04-03 11:00:51,504] [INFO] [pipeline.notifications] Email sent: [Pipeline Alert] air_sync — 9 of 606 shipments failed
+[2026-04-03 11:00:51,505] [INFO] [pipeline.jobs.processing] [air_sync] Done: 0 completed, 9 failed
+[2026-04-03 11:00:52,373] [INFO] [pipeline.jobs.sync_sea] [SEA SYNC] Found 54 critical shipments
+[2026-04-03 11:00:54,551] [INFO] [pipeline.jobs.processing] [sea_sync] Processing 54 shipments
+[2026-04-03 11:01:02,001] [ERROR] [pipeline.jobs.processing] Failed processing SSIVW0026627: name 'extract_service_level_code' is not defined
+[2026-04-03 11:01:04,030] [ERROR] [pipeline.jobs.processing] Failed processing SSIVW0026625: name 'extract_service_level_code' is not defined
+[2026-04-03 11:01:28,419] [INFO] [pipeline.jobs.excel_ingest] 📂 Using LOCAL file: /Users/ashishsrivastava/Downloads/vin_world_shipment_dashboard/Book7.xlsx
+[2026-04-03 11:01:33,187] [INFO] [pipeline.excel] Parsed 1 shipment IDs from Excel
+[2026-04-03 11:01:34,358] [INFO] [pipeline.jobs.excel_ingest] Parsed 1 shipments from Book7.xlsx
+[2026-04-03 11:01:35,867] [INFO] [pipeline.jobs.excel_ingest] Found 1 new shipments out of 1
+[2026-04-03 11:01:37,033] [INFO] [pipeline.jobs.processing] [excel_ingest] Processing 1 shipments
+[2026-04-03 11:01:44,395] [ERROR] [pipeline.jobs.processing] Failed processing SAIVW0024828: name 'service_level' is not defined
+[2026-04-03 11:01:51,526] [INFO] [pipeline.notifications] Email sent: [Pipeline Alert] excel_ingest — 1 of 1 shipments failed
+[2026-04-03 11:01:51,527] [INFO] [pipeline.jobs.processing] [excel_ingest] Done: 0 completed, 1 failed
+[2026-04-03 11:01:56,657] [INFO] [pipeline.jobs.processing] [air_sync] Processing 606 shipments
+[2026-04-03 11:07:31,117] [INFO] [pipeline.jobs.excel_ingest] 📂 Using LOCAL file: /Users/ashishsrivastava/Downloads/vin_world_shipment_dashboard/Book7.xlsx
+[2026-04-03 11:07:36,255] [INFO] [pipeline.excel] Parsed 1 shipment IDs from Excel
+[2026-04-03 11:07:37,261] [INFO] [pipeline.jobs.excel_ingest] Parsed 1 shipments from Book7.xlsx
+[2026-04-03 11:07:38,554] [INFO] [pipeline.jobs.excel_ingest] Found 1 new shipments out of 1
+[2026-04-03 11:16:37,838] [INFO] [pipeline.jobs.excel_ingest] 📂 Using LOCAL file: /Users/ashishsrivastava/Downloads/vin_world_shipment_dashboard/Book7.xlsx
+[2026-04-03 11:16:42,557] [INFO] [pipeline.excel] Parsed 2 shipment IDs from Excel
+[2026-04-03 11:16:43,775] [INFO] [pipeline.jobs.excel_ingest] Parsed 2 shipments from Book7.xlsx
+[2026-04-03 11:16:45,042] [INFO] [pipeline.jobs.excel_ingest] Found 0 new shipments out of 2
+[2026-04-03 11:17:34,626] [INFO] [pipeline.jobs.excel_ingest] 📂 Using LOCAL file: /Users/ashishsrivastava/Downloads/vin_world_shipment_dashboard/Book7.xlsx
+[2026-04-03 11:17:39,567] [INFO] [pipeline.excel] Parsed 2 shipment IDs from Excel
+[2026-04-03 11:17:40,662] [INFO] [pipeline.jobs.excel_ingest] Parsed 2 shipments from Book7.xlsx
+[2026-04-03 11:17:42,069] [INFO] [pipeline.jobs.excel_ingest] Found 1 new shipments out of 2
+[2026-04-03 11:22:25,900] [INFO] [pipeline.jobs.excel_ingest] 📂 Using LOCAL file: /Users/ashishsrivastava/Downloads/vin_world_shipment_dashboard/Book7.xlsx
+[2026-04-03 11:22:31,049] [INFO] [pipeline.excel] Parsed 2 shipment IDs from Excel
+[2026-04-03 11:22:32,250] [INFO] [pipeline.jobs.excel_ingest] Parsed 2 shipments from Book7.xlsx
+[2026-04-03 11:22:33,650] [INFO] [pipeline.jobs.excel_ingest] Found 1 new shipments out of 2
+[2026-04-03 11:42:15,443] [INFO] [pipeline.jobs.excel_ingest] 📂 Using LOCAL file: /Users/ashishsrivastava/Downloads/vin_world_shipment_dashboard/TENTABBUF.xlsx
+[2026-04-03 11:42:22,108] [INFO] [pipeline.excel] Parsed 12 shipment IDs from Excel
+[2026-04-03 11:42:23,181] [INFO] [pipeline.jobs.excel_ingest] Parsed 12 shipments from TENTABBUF.xlsx
+[2026-04-03 11:42:24,558] [INFO] [pipeline.jobs.excel_ingest] Found 0 new shipments out of 12
+[2026-04-03 11:43:03,264] [INFO] [pipeline.jobs.excel_ingest] 📂 Using LOCAL file: /Users/ashishsrivastava/Downloads/vin_world_shipment_dashboard/VWFEDERADET.xlsx
+[2026-04-03 11:43:09,645] [INFO] [pipeline.excel] Parsed 20 shipment IDs from Excel
+[2026-04-03 11:43:10,782] [INFO] [pipeline.jobs.excel_ingest] Parsed 20 shipments from VWFEDERADET.xlsx
+[2026-04-03 11:43:12,042] [INFO] [pipeline.jobs.excel_ingest] Found 0 new shipments out of 20
+[2026-04-03 11:43:50,164] [INFO] [pipeline.jobs.excel_ingest] 📂 Using LOCAL file: /Users/ashishsrivastava/Downloads/vin_world_shipment_dashboard/VWTECRIMZCS.xlsx
+[2026-04-03 11:43:56,944] [INFO] [pipeline.excel] Parsed 17 shipment IDs from Excel
+[2026-04-03 11:43:57,976] [INFO] [pipeline.jobs.excel_ingest] Parsed 17 shipments from VWTECRIMZCS.xlsx
+[2026-04-03 11:43:59,163] [INFO] [pipeline.jobs.excel_ingest] Found 0 new shipments out of 17
+[2026-04-03 11:44:15,462] [INFO] [pipeline.jobs.excel_ingest] 📂 Using LOCAL file: /Users/ashishsrivastava/Downloads/vin_world_shipment_dashboard/VWVIKPROGRR.xlsx
+[2026-04-03 11:44:21,938] [INFO] [pipeline.excel] Parsed 69 shipment IDs from Excel
+[2026-04-03 11:44:23,221] [INFO] [pipeline.jobs.excel_ingest] Parsed 69 shipments from VWVIKPROGRR.xlsx
+[2026-04-03 11:44:24,473] [INFO] [pipeline.jobs.excel_ingest] Found 0 new shipments out of 69
+[2026-04-03 11:45:43,608] [INFO] [pipeline.sftp] SFTP connected, working directory: /vinworld_shipment_dashboard
+[2026-04-03 11:45:46,355] [INFO] [pipeline.sftp] Downloaded Shipment Profile Report (2026-04-03 04-02-14).XLSX to /tmp/pipeline_downloads/Shipment Profile Report (2026-04-03 04-02-14).XLSX
+[2026-04-03 11:45:47,581] [INFO] [pipeline.excel] Parsed 4160 shipment IDs from Excel
+[2026-04-03 11:45:54,583] [INFO] [pipeline.jobs.excel_ingest] Parsed 4160 shipments from Shipment Profile Report (2026-04-03 04-02-14).XLSX
+[2026-04-03 11:45:55,401] [INFO] [pipeline.sftp] Deleted Shipment Profile Report (2026-04-03 04-02-14).XLSX from SFTP
+[2026-04-03 11:45:56,727] [INFO] [pipeline.jobs.excel_ingest] Found 144 new shipments out of 4160
+[2026-04-03 11:45:56,728] [INFO] [pipeline.sftp] SFTP connection closed
+[2026-04-03 12:27:20,550] [INFO] [pipeline.jobs.sync_sea] [SEA SYNC] Found 60 critical shipments
+[2026-04-03 12:30:52,442] [INFO] [pipeline.jobs.sync_sea] [SEA REVERSE] Found 710 reverse shipments
+[2026-04-03 13:46:34,803] [INFO] [pipeline.excel] Parsed 69 shipment IDs from Excel
+[2026-04-03 13:46:38,507] [INFO] [pipeline.jobs.sync_sea] [SEA SYNC] Found 0 critical shipments
+[2026-04-03 13:47:02,700] [INFO] [pipeline.excel] Parsed 69 shipment IDs from Excel
+[2026-04-03 13:47:06,282] [INFO] [pipeline.jobs.sync_sea] [SEA SYNC] Found 0 critical shipments
+[2026-04-03 13:49:41,645] [INFO] [pipeline.excel] Parsed 69 shipment IDs from Excel
+[2026-04-03 13:53:07,158] [INFO] [pipeline.jobs.sync_sea] [SEA SYNC] Found 6 critical shipments
+[2026-04-03 13:53:29,666] [INFO] [pipeline.excel] Parsed 17 shipment IDs from Excel
+[2026-04-03 13:54:58,639] [INFO] [pipeline.excel] Parsed 20 shipment IDs from Excel
+[2026-04-03 13:56:45,335] [INFO] [pipeline.jobs.sync_sea] [SEA SYNC] Found 8 critical shipments
+[2026-04-03 13:57:59,671] [INFO] [pipeline.excel] Parsed 12 shipment IDs from Excel
+[2026-04-03 14:55:41,551] [ERROR] [pipeline.jobs.excel_ingest] Excel ingest failed: ❌ Local file not found: /Users/ashishsrivastava/Downloads/vin_world_shipment_dashboard/OlderShipment.xlsx
+[2026-04-03 14:56:10,224] [ERROR] [pipeline.jobs.excel_ingest] Excel ingest failed: ❌ Local file not found: /Users/ashishsrivastava/Downloads/vin_world_shipment_dashboard/OlderShipment.xlsx
+[2026-04-03 14:56:43,887] [INFO] [pipeline.excel] Parsed 1 shipment IDs from Excel
+[2026-04-03 14:58:08,412] [INFO] [pipeline.excel] Parsed 12 shipment IDs from Excel
+[2026-04-03 15:24:18,603] [INFO] [pipeline.excel] Parsed 12 shipment IDs from Excel
+[2026-04-03 15:25:15,180] [INFO] [pipeline.jobs.sync_sea] [SEA SYNC] Found 8 critical shipments
+[2026-04-03 15:27:21,698] [INFO] [pipeline.excel] Parsed 12 shipment IDs from Excel
+[2026-04-03 15:28:15,383] [INFO] [pipeline.jobs.sync_sea] [SEA SYNC] Found 8 critical shipments
+[2026-04-03 15:42:05,955] [INFO] [pipeline.excel] Parsed 12 shipment IDs from Excel
+[2026-04-03 15:42:58,599] [INFO] [pipeline.jobs.sync_sea] [SEA SYNC] Found 8 critical shipments
+[2026-04-03 15:46:10,151] [INFO] [pipeline.jobs.sync_sea] [SEA SYNC] Found 8 critical shipments
+[2026-04-03 15:46:52,299] [INFO] [pipeline.jobs.sync_sea] [SEA REVERSE] Found 32 reverse shipments
+[2026-04-03 15:50:44,953] [INFO] [pipeline.excel] Parsed 12 shipment IDs from Excel
+[2026-04-03 15:51:34,261] [INFO] [pipeline.jobs.sync_sea] [SEA SYNC] Found 0 critical shipments
+[2026-04-03 15:52:03,370] [INFO] [pipeline.excel] Parsed 20 shipment IDs from Excel
+[2026-04-03 15:53:30,216] [INFO] [pipeline.jobs.sync_sea] [SEA SYNC] Found 1 critical shipments
+[2026-04-03 15:54:18,354] [INFO] [pipeline.excel] Parsed 17 shipment IDs from Excel
+[2026-04-03 15:56:15,613] [INFO] [pipeline.excel] Parsed 17 shipment IDs from Excel
+[2026-04-03 15:56:58,776] [INFO] [pipeline.jobs.sync_sea] [SEA SYNC] Found 2 critical shipments
+[2026-04-03 15:57:25,948] [INFO] [pipeline.excel] Parsed 69 shipment IDs from Excel
+[2026-04-03 16:01:05,927] [INFO] [pipeline.excel] Parsed 69 shipment IDs from Excel
+[2026-04-03 16:07:35,587] [INFO] [pipeline.excel] Parsed 20 shipment IDs from Excel
+[2026-04-03 16:13:26,414] [INFO] [pipeline.excel] Parsed 20 shipment IDs from Excel
+[2026-04-03 16:16:21,607] [INFO] [pipeline.excel] Parsed 20 shipment IDs from Excel
+[2026-04-03 16:17:09,422] [INFO] [pipeline.excel] Parsed 20 shipment IDs from Excel
+[2026-04-03 16:17:46,678] [INFO] [pipeline.jobs.sync_sea] [SEA SYNC] Found 8 critical shipments
+[2026-04-03 16:23:21,134] [INFO] [pipeline.excel] Parsed 20 shipment IDs from Excel
+[2026-04-03 16:27:00,433] [INFO] [pipeline.jobs.sync_sea] [SEA SYNC] Found 8 critical shipments
+[2026-04-03 16:34:09,112] [INFO] [pipeline.excel] Parsed 20 shipment IDs from Excel
+[2026-04-03 16:36:09,099] [INFO] [pipeline.excel] Parsed 12 shipment IDs from Excel
+[2026-04-03 16:37:27,687] [INFO] [pipeline.excel] Parsed 17 shipment IDs from Excel
+[2026-04-03 16:39:12,948] [INFO] [pipeline.excel] Parsed 69 shipment IDs from Excel
+[2026-04-03 16:43:55,457] [INFO] [pipeline.jobs.sync_sea] [SEA SYNC] Found 8 critical shipments

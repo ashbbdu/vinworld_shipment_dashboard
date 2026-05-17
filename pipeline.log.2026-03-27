@@ -1,0 +1,341 @@
+[2026-03-27 10:42:10,495] [ERROR] [pipeline.jobs.excel_ingest] Local Excel ingest failed: name '_load_local_and_store' is not defined
+[2026-03-27 10:45:17,616] [ERROR] [pipeline.jobs.excel_ingest] Local Excel ingest failed: (1265, "Data truncated for column 'status' at row 1")
+[2026-03-27 10:46:43,408] [INFO] [pipeline.excel] Parsed 1 shipment IDs from Excel
+[2026-03-27 10:46:43,424] [INFO] [pipeline.jobs.excel_ingest] [LOCAL] Parsed 1 shipments from test_shipments.xlsx
+[2026-03-27 10:46:43,431] [INFO] [pipeline.jobs.excel_ingest] [LOCAL] Found 0 new shipments out of 1
+[2026-03-27 11:13:37,340] [INFO] [pipeline.sftp] SFTP connected, working directory: /vinworld_shipment_dashboard
+[2026-03-27 11:13:40,608] [INFO] [pipeline.sftp] Downloaded Shipment Profile Report (2026-03-27 04-05-26).XLSX to /tmp/pipeline_downloads/Shipment Profile Report (2026-03-27 04-05-26).XLSX
+[2026-03-27 11:13:40,726] [INFO] [pipeline.excel] Parsed 1293 shipment IDs from Excel
+[2026-03-27 11:13:40,787] [INFO] [pipeline.jobs.excel_ingest] Parsed 1293 shipments from Shipment Profile Report (2026-03-27 04-05-26).XLSX
+[2026-03-27 11:13:41,427] [INFO] [pipeline.sftp] Deleted Shipment Profile Report (2026-03-27 04-05-26).XLSX from SFTP
+[2026-03-27 11:13:41,452] [INFO] [pipeline.jobs.excel_ingest] Found 94 new shipments out of 1293
+[2026-03-27 11:13:41,453] [INFO] [pipeline.sftp] SFTP connection closed
+[2026-03-27 11:13:41,554] [INFO] [pipeline.jobs.processing] [excel_ingest] Processing 94 shipments
+[2026-03-27 11:14:46,308] [INFO] [pipeline.jobs.processing] [excel_ingest] Done: 94 completed, 0 failed
+[2026-03-27 11:14:46,555] [INFO] [pipeline.jobs.processing] [air_sync] Processing 712 shipments
+[2026-03-27 11:23:27,870] [INFO] [pipeline.jobs.processing] [air_sync] Done: 712 completed, 0 failed
+[2026-03-27 11:23:27,915] [INFO] [pipeline.jobs.sync_sea] [SEA SYNC] Found 72 critical shipments
+[2026-03-27 11:23:27,953] [INFO] [pipeline.jobs.processing] [sea_sync] Processing 72 shipments
+[2026-03-27 11:24:13,317] [INFO] [pipeline.jobs.processing] [sea_sync] Done: 72 completed, 0 failed
+[2026-03-27 11:39:13,158] [INFO] [pipeline.sftp] SFTP connected, working directory: /vinworld_shipment_dashboard
+[2026-03-27 11:39:16,481] [INFO] [pipeline.sftp] Downloaded Shipment Profile Report (2026-03-27 01-00-21).XLSX to /tmp/pipeline_downloads/Shipment Profile Report (2026-03-27 01-00-21).XLSX
+[2026-03-27 11:39:16,609] [INFO] [pipeline.excel] Parsed 1439 shipment IDs from Excel
+[2026-03-27 11:39:16,666] [INFO] [pipeline.jobs.excel_ingest] Parsed 1439 shipments from Shipment Profile Report (2026-03-27 01-00-21).XLSX
+[2026-03-27 11:39:17,182] [INFO] [pipeline.sftp] Deleted Shipment Profile Report (2026-03-27 01-00-21).XLSX from SFTP
+[2026-03-27 11:39:17,198] [INFO] [pipeline.jobs.excel_ingest] Found 1 new shipments out of 1439
+[2026-03-27 11:39:17,200] [INFO] [pipeline.sftp] SFTP connection closed
+[2026-03-27 11:39:17,208] [INFO] [pipeline.jobs.processing] [excel_ingest] Processing 1 shipments
+[2026-03-27 11:39:20,656] [INFO] [pipeline.jobs.processing] [excel_ingest] Done: 1 completed, 0 failed
+[2026-03-27 11:39:20,926] [INFO] [pipeline.jobs.processing] [air_sync] Processing 686 shipments
+[2026-03-27 12:43:53,901] [INFO] [pipeline.excel] Parsed 1 shipment IDs from Excel
+[2026-03-27 12:45:48,998] [INFO] [pipeline.excel] Parsed 1 shipment IDs from Excel
+[2026-03-27 12:47:13,137] [INFO] [pipeline.sftp] SFTP connected, working directory: /vinworld_shipment_dashboard
+[2026-03-27 12:47:16,299] [INFO] [pipeline.sftp] Downloaded Shipment Profile Report (2026-03-27 07-00-26).XLSX to /tmp/pipeline_downloads/Shipment Profile Report (2026-03-27 07-00-26).XLSX
+[2026-03-27 12:47:16,404] [INFO] [pipeline.excel] Parsed 1293 shipment IDs from Excel
+[2026-03-27 12:47:16,460] [INFO] [pipeline.jobs.excel_ingest] Parsed 1293 shipments from Shipment Profile Report (2026-03-27 07-00-26).XLSX
+[2026-03-27 12:47:17,062] [INFO] [pipeline.sftp] Deleted Shipment Profile Report (2026-03-27 07-00-26).XLSX from SFTP
+[2026-03-27 12:47:17,073] [INFO] [pipeline.jobs.excel_ingest] Found 1 new shipments out of 1293
+[2026-03-27 12:47:17,074] [INFO] [pipeline.sftp] SFTP connection closed
+[2026-03-27 12:47:17,079] [INFO] [pipeline.jobs.processing] [excel_ingest] Processing 1 shipments
+[2026-03-27 12:47:21,184] [INFO] [pipeline.jobs.processing] [excel_ingest] Done: 1 completed, 0 failed
+[2026-03-27 12:47:21,420] [INFO] [pipeline.jobs.processing] [air_sync] Processing 686 shipments
+[2026-03-27 12:52:03,669] [INFO] [pipeline.excel] Parsed 7756 shipment IDs from Excel
+[2026-03-27 12:52:40,983] [INFO] [pipeline.sftp] SFTP connected, working directory: /vinworld_shipment_dashboard
+[2026-03-27 12:52:44,053] [INFO] [pipeline.sftp] Downloaded Shipment Profile Report (2026-03-26 22-00-31).XLSX to /tmp/pipeline_downloads/Shipment Profile Report (2026-03-26 22-00-31).XLSX
+[2026-03-27 12:52:44,178] [INFO] [pipeline.excel] Parsed 1438 shipment IDs from Excel
+[2026-03-27 12:52:44,223] [INFO] [pipeline.jobs.excel_ingest] Parsed 1438 shipments from Shipment Profile Report (2026-03-26 22-00-31).XLSX
+[2026-03-27 12:52:44,743] [INFO] [pipeline.sftp] Deleted Shipment Profile Report (2026-03-26 22-00-31).XLSX from SFTP
+[2026-03-27 12:52:44,773] [INFO] [pipeline.jobs.excel_ingest] Found 1438 new shipments out of 1438
+[2026-03-27 12:52:44,774] [INFO] [pipeline.sftp] SFTP connection closed
+[2026-03-27 12:52:44,976] [INFO] [pipeline.jobs.processing] [excel_ingest] Processing 1438 shipments
+[2026-03-27 13:08:35,851] [INFO] [pipeline.jobs.processing] [excel_ingest] Done: 1438 completed, 0 failed
+[2026-03-27 13:08:36,023] [INFO] [pipeline.jobs.processing] [air_sync] Processing 623 shipments
+[2026-03-27 13:14:59,780] [INFO] [pipeline.sftp] SFTP connected, working directory: /vinworld_shipment_dashboard
+[2026-03-27 13:15:02,975] [INFO] [pipeline.sftp] Downloaded Shipment Profile Report (2026-03-26 19-00-24).XLSX to /tmp/pipeline_downloads/Shipment Profile Report (2026-03-26 19-00-24).XLSX
+[2026-03-27 13:15:03,099] [INFO] [pipeline.excel] Parsed 1408 shipment IDs from Excel
+[2026-03-27 13:15:03,144] [INFO] [pipeline.jobs.excel_ingest] Parsed 1408 shipments from Shipment Profile Report (2026-03-26 19-00-24).XLSX
+[2026-03-27 13:15:03,635] [INFO] [pipeline.sftp] Deleted Shipment Profile Report (2026-03-26 19-00-24).XLSX from SFTP
+[2026-03-27 13:15:03,647] [INFO] [pipeline.jobs.excel_ingest] Found 0 new shipments out of 1408
+[2026-03-27 13:15:03,648] [INFO] [pipeline.sftp] SFTP connection closed
+[2026-03-27 13:15:03,819] [INFO] [pipeline.jobs.processing] [air_sync] Processing 623 shipments
+[2026-03-27 13:15:58,285] [INFO] [pipeline.sftp] SFTP connected, working directory: /vinworld_shipment_dashboard
+[2026-03-27 13:16:01,793] [INFO] [pipeline.sftp] Downloaded Shipment Profile Report (2026-03-26 16-00-17).XLSX to /tmp/pipeline_downloads/Shipment Profile Report (2026-03-26 16-00-17).XLSX
+[2026-03-27 13:16:01,912] [INFO] [pipeline.excel] Parsed 1376 shipment IDs from Excel
+[2026-03-27 13:16:01,963] [INFO] [pipeline.jobs.excel_ingest] Parsed 1376 shipments from Shipment Profile Report (2026-03-26 16-00-17).XLSX
+[2026-03-27 13:16:02,611] [INFO] [pipeline.sftp] Deleted Shipment Profile Report (2026-03-26 16-00-17).XLSX from SFTP
+[2026-03-27 13:16:02,625] [INFO] [pipeline.jobs.excel_ingest] Found 0 new shipments out of 1376
+[2026-03-27 13:16:02,626] [INFO] [pipeline.sftp] SFTP connection closed
+[2026-03-27 13:16:02,793] [INFO] [pipeline.jobs.processing] [air_sync] Processing 623 shipments
+[2026-03-27 13:16:49,476] [INFO] [pipeline.sftp] SFTP connected, working directory: /vinworld_shipment_dashboard
+[2026-03-27 13:16:52,712] [INFO] [pipeline.sftp] Downloaded Shipment Profile Report (2026-03-26 13-00-12).XLSX to /tmp/pipeline_downloads/Shipment Profile Report (2026-03-26 13-00-12).XLSX
+[2026-03-27 13:16:52,819] [INFO] [pipeline.excel] Parsed 1344 shipment IDs from Excel
+[2026-03-27 13:16:52,867] [INFO] [pipeline.jobs.excel_ingest] Parsed 1344 shipments from Shipment Profile Report (2026-03-26 13-00-12).XLSX
+[2026-03-27 13:16:53,414] [INFO] [pipeline.sftp] Deleted Shipment Profile Report (2026-03-26 13-00-12).XLSX from SFTP
+[2026-03-27 13:16:53,440] [INFO] [pipeline.jobs.excel_ingest] Found 1344 new shipments out of 1344
+[2026-03-27 13:16:53,441] [INFO] [pipeline.sftp] SFTP connection closed
+[2026-03-27 13:16:53,644] [INFO] [pipeline.jobs.processing] [excel_ingest] Processing 1344 shipments
+[2026-03-27 13:18:14,071] [INFO] [pipeline.excel] Parsed 7756 shipment IDs from Excel
+[2026-03-27 13:18:28,550] [INFO] [pipeline.sftp] SFTP connected, working directory: /vinworld_shipment_dashboard
+[2026-03-27 13:18:31,912] [INFO] [pipeline.sftp] Downloaded Shipment Profile Report (2026-03-25 16-05-00).XLSX to /tmp/pipeline_downloads/Shipment Profile Report (2026-03-25 16-05-00).XLSX
+[2026-03-27 13:18:32,026] [INFO] [pipeline.excel] Parsed 1401 shipment IDs from Excel
+[2026-03-27 13:18:32,072] [INFO] [pipeline.jobs.excel_ingest] Parsed 1401 shipments from Shipment Profile Report (2026-03-25 16-05-00).XLSX
+[2026-03-27 13:18:32,603] [INFO] [pipeline.sftp] Deleted Shipment Profile Report (2026-03-25 16-05-00).XLSX from SFTP
+[2026-03-27 13:18:32,618] [INFO] [pipeline.jobs.excel_ingest] Found 1401 new shipments out of 1401
+[2026-03-27 13:18:32,619] [INFO] [pipeline.sftp] SFTP connection closed
+[2026-03-27 13:18:32,830] [INFO] [pipeline.jobs.processing] [excel_ingest] Processing 1401 shipments
+[2026-03-27 13:20:29,104] [INFO] [pipeline.sftp] SFTP connected, working directory: /vinworld_shipment_dashboard
+[2026-03-27 13:20:30,318] [WARNING] [pipeline.sftp] No matching Excel file found on SFTP
+[2026-03-27 13:20:30,318] [WARNING] [pipeline.jobs.excel_ingest] No Excel file to process
+[2026-03-27 13:20:30,319] [INFO] [pipeline.sftp] SFTP connection closed
+[2026-03-27 13:20:30,379] [INFO] [pipeline.jobs.processing] [air_sync] Processing 46 shipments
+[2026-03-27 13:22:26,446] [INFO] [pipeline.excel] Parsed 7756 shipment IDs from Excel
+[2026-03-27 13:23:03,951] [INFO] [pipeline.sftp] SFTP connected, working directory: /vinworld_shipment_dashboard
+[2026-03-27 13:23:05,321] [WARNING] [pipeline.sftp] No matching Excel file found on SFTP
+[2026-03-27 13:23:05,322] [WARNING] [pipeline.jobs.excel_ingest] No Excel file to process
+[2026-03-27 13:23:05,322] [INFO] [pipeline.sftp] SFTP connection closed
+[2026-03-27 13:23:05,335] [INFO] [pipeline.jobs.sync_sea] [SEA SYNC] Found 0 critical shipments
+[2026-03-27 13:23:28,526] [INFO] [pipeline.sftp] SFTP connected, working directory: /vinworld_shipment_dashboard
+[2026-03-27 13:23:29,961] [WARNING] [pipeline.sftp] No matching Excel file found on SFTP
+[2026-03-27 13:23:29,961] [WARNING] [pipeline.jobs.excel_ingest] No Excel file to process
+[2026-03-27 13:23:29,962] [INFO] [pipeline.sftp] SFTP connection closed
+[2026-03-27 13:23:29,971] [INFO] [pipeline.jobs.sync_sea] [SEA SYNC] Found 0 critical shipments
+[2026-03-27 13:24:01,591] [INFO] [pipeline.sftp] SFTP connected, working directory: /vinworld_shipment_dashboard
+[2026-03-27 13:24:02,995] [WARNING] [pipeline.sftp] No matching Excel file found on SFTP
+[2026-03-27 13:24:02,996] [WARNING] [pipeline.jobs.excel_ingest] No Excel file to process
+[2026-03-27 13:24:02,996] [INFO] [pipeline.sftp] SFTP connection closed
+[2026-03-27 13:24:03,006] [INFO] [pipeline.jobs.sync_sea] [SEA SYNC] Found 0 critical shipments
+[2026-03-27 13:25:12,921] [INFO] [pipeline.sftp] SFTP connected, working directory: /vinworld_shipment_dashboard
+[2026-03-27 13:25:14,229] [WARNING] [pipeline.sftp] No matching Excel file found on SFTP
+[2026-03-27 13:25:14,229] [WARNING] [pipeline.jobs.excel_ingest] No Excel file to process
+[2026-03-27 13:25:14,230] [INFO] [pipeline.sftp] SFTP connection closed
+[2026-03-27 13:25:14,238] [INFO] [pipeline.jobs.sync_sea] [SEA SYNC] Found 0 critical shipments
+[2026-03-27 13:25:47,445] [INFO] [pipeline.sftp] SFTP connected, working directory: /vinworld_shipment_dashboard
+[2026-03-27 13:25:48,756] [WARNING] [pipeline.sftp] No matching Excel file found on SFTP
+[2026-03-27 13:25:48,756] [WARNING] [pipeline.jobs.excel_ingest] No Excel file to process
+[2026-03-27 13:25:48,757] [INFO] [pipeline.sftp] SFTP connection closed
+[2026-03-27 13:26:09,592] [INFO] [pipeline.sftp] SFTP connected, working directory: /vinworld_shipment_dashboard
+[2026-03-27 13:26:10,869] [WARNING] [pipeline.sftp] No matching Excel file found on SFTP
+[2026-03-27 13:26:10,869] [WARNING] [pipeline.jobs.excel_ingest] No Excel file to process
+[2026-03-27 13:26:10,870] [INFO] [pipeline.sftp] SFTP connection closed
+[2026-03-27 13:26:10,877] [INFO] [pipeline.jobs.sync_sea] [SEA SYNC] Found 0 critical shipments
+[2026-03-27 13:26:21,913] [INFO] [pipeline.sftp] SFTP connected, working directory: /vinworld_shipment_dashboard
+[2026-03-27 13:26:23,319] [WARNING] [pipeline.sftp] No matching Excel file found on SFTP
+[2026-03-27 13:26:23,319] [WARNING] [pipeline.jobs.excel_ingest] No Excel file to process
+[2026-03-27 13:26:23,320] [INFO] [pipeline.sftp] SFTP connection closed
+[2026-03-27 13:26:23,328] [INFO] [pipeline.jobs.sync_sea] [SEA SYNC] Found 0 critical shipments
+[2026-03-27 13:27:38,309] [INFO] [pipeline.excel] Parsed 7756 shipment IDs from Excel
+[2026-03-27 13:27:46,071] [INFO] [pipeline.sftp] SFTP connected, working directory: /vinworld_shipment_dashboard
+[2026-03-27 13:27:47,353] [WARNING] [pipeline.sftp] No matching Excel file found on SFTP
+[2026-03-27 13:27:47,354] [WARNING] [pipeline.jobs.excel_ingest] No Excel file to process
+[2026-03-27 13:27:47,355] [INFO] [pipeline.sftp] SFTP connection closed
+[2026-03-27 13:27:47,362] [INFO] [pipeline.jobs.sync_sea] [SEA SYNC] Found 0 critical shipments
+[2026-03-27 13:29:24,377] [INFO] [pipeline.sftp] SFTP connected, working directory: /vinworld_shipment_dashboard
+[2026-03-27 13:29:25,582] [WARNING] [pipeline.sftp] No matching Excel file found on SFTP
+[2026-03-27 13:29:25,583] [WARNING] [pipeline.jobs.excel_ingest] No Excel file to process
+[2026-03-27 13:29:25,584] [INFO] [pipeline.sftp] SFTP connection closed
+[2026-03-27 13:29:25,595] [INFO] [pipeline.jobs.sync_sea] [SEA SYNC] Found 0 critical shipments
+[2026-03-27 13:30:21,817] [INFO] [pipeline.sftp] SFTP connected, working directory: /vinworld_shipment_dashboard
+[2026-03-27 13:30:23,019] [WARNING] [pipeline.sftp] No matching Excel file found on SFTP
+[2026-03-27 13:30:23,019] [WARNING] [pipeline.jobs.excel_ingest] No Excel file to process
+[2026-03-27 13:30:23,020] [INFO] [pipeline.sftp] SFTP connection closed
+[2026-03-27 13:30:23,033] [INFO] [pipeline.jobs.sync_sea] [SEA SYNC] Found 0 critical shipments
+[2026-03-27 13:32:43,794] [INFO] [pipeline.jobs.sync_sea] [SEA SYNC] Found 0 critical shipments
+[2026-03-27 13:33:36,315] [INFO] [pipeline.sftp] SFTP connected, working directory: /vinworld_shipment_dashboard
+[2026-03-27 13:33:38,564] [WARNING] [pipeline.sftp] No matching Excel file found on SFTP
+[2026-03-27 13:33:38,564] [WARNING] [pipeline.jobs.excel_ingest] No Excel file to process
+[2026-03-27 13:33:38,565] [INFO] [pipeline.sftp] SFTP connection closed
+[2026-03-27 13:33:38,574] [INFO] [pipeline.jobs.sync_sea] [SEA SYNC] Found 0 critical shipments
+[2026-03-27 13:36:34,736] [INFO] [pipeline.excel] Parsed 7756 shipment IDs from Excel
+[2026-03-27 13:36:47,740] [INFO] [pipeline.sftp] SFTP connected, working directory: /vinworld_shipment_dashboard
+[2026-03-27 13:36:48,935] [WARNING] [pipeline.sftp] No matching Excel file found on SFTP
+[2026-03-27 13:36:48,935] [WARNING] [pipeline.jobs.excel_ingest] No Excel file to process
+[2026-03-27 13:36:48,936] [INFO] [pipeline.sftp] SFTP connection closed
+[2026-03-27 13:36:48,942] [INFO] [pipeline.jobs.sync_sea] [SEA SYNC] Found 0 critical shipments
+[2026-03-27 13:49:47,062] [INFO] [pipeline.sftp] SFTP connected, working directory: /vinworld_shipment_dashboard
+[2026-03-27 13:49:48,296] [WARNING] [pipeline.sftp] No matching Excel file found on SFTP
+[2026-03-27 13:49:48,296] [WARNING] [pipeline.jobs.excel_ingest] No Excel file to process
+[2026-03-27 13:49:48,297] [INFO] [pipeline.sftp] SFTP connection closed
+[2026-03-27 13:49:48,306] [INFO] [pipeline.jobs.sync_sea] [SEA SYNC] Found 0 critical shipments
+[2026-03-27 13:50:24,707] [INFO] [pipeline.sftp] SFTP connected, working directory: /vinworld_shipment_dashboard
+[2026-03-27 13:50:25,931] [WARNING] [pipeline.sftp] No matching Excel file found on SFTP
+[2026-03-27 13:50:25,931] [WARNING] [pipeline.jobs.excel_ingest] No Excel file to process
+[2026-03-27 13:50:25,933] [INFO] [pipeline.sftp] SFTP connection closed
+[2026-03-27 13:50:25,942] [INFO] [pipeline.jobs.sync_sea] [SEA SYNC] Found 0 critical shipments
+[2026-03-27 13:50:47,410] [INFO] [pipeline.sftp] SFTP connected, working directory: /vinworld_shipment_dashboard
+[2026-03-27 13:50:48,652] [WARNING] [pipeline.sftp] No matching Excel file found on SFTP
+[2026-03-27 13:50:48,652] [WARNING] [pipeline.jobs.excel_ingest] No Excel file to process
+[2026-03-27 13:50:48,653] [INFO] [pipeline.sftp] SFTP connection closed
+[2026-03-27 13:50:48,662] [INFO] [pipeline.jobs.sync_sea] [SEA SYNC] Found 0 critical shipments
+[2026-03-27 13:52:56,547] [INFO] [pipeline.jobs.excel_ingest] 📂 Using LOCAL file: /Users/ashishsrivastava/Downloads/vin_world_shipment_dashboard/ShipmetList.xlsx
+[2026-03-27 13:52:56,710] [INFO] [pipeline.excel] Parsed 7756 shipment IDs from Excel
+[2026-03-27 13:52:56,871] [INFO] [pipeline.jobs.excel_ingest] Parsed 7756 shipments from ShipmetList.xlsx
+[2026-03-27 13:52:56,872] [INFO] [pipeline.jobs.excel_ingest] Found 7756 new shipments out of 7756
+[2026-03-27 13:52:57,661] [INFO] [pipeline.jobs.processing] [excel_ingest] Processing 7756 shipments
+[2026-03-27 13:52:58,847] [ERROR] [pipeline.jobs.processing] Failed processing SAEVW0021221: 500 Server Error: Internal Server Error for url: https://eadaptor-prod.glweststardubai.com/eAdaptor
+[2026-03-27 13:52:58,848] [ERROR] [pipeline.jobs.processing] Failed processing SAEVW0017914: 500 Server Error: Internal Server Error for url: https://eadaptor-prod.glweststardubai.com/eAdaptor
+[2026-03-27 13:52:58,849] [ERROR] [pipeline.jobs.processing] Failed processing SAEVW0017817: 500 Server Error: Internal Server Error for url: https://eadaptor-prod.glweststardubai.com/eAdaptor
+[2026-03-27 13:52:58,861] [ERROR] [pipeline.jobs.processing] Failed processing SAEVW0020270: 500 Server Error: Internal Server Error for url: https://eadaptor-prod.glweststardubai.com/eAdaptor
+[2026-03-27 13:56:29,243] [WARNING] [pipeline.jobs.processing] Transient error for SSEVW0023107: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+[2026-03-27 13:56:48,005] [ERROR] [pipeline.jobs.processing] Failed processing SAEVW0019375: ('Connection broken: IncompleteRead(48803 bytes read, 164315 more expected)', IncompleteRead(48803 bytes read, 164315 more expected))
+[2026-03-27 13:56:52,321] [ERROR] [pipeline.jobs.processing] Failed processing SAEVW0023961: ('Connection broken: IncompleteRead(65187 bytes read, 126790 more expected)', IncompleteRead(65187 bytes read, 126790 more expected))
+[2026-03-27 14:25:45,898] [WARNING] [pipeline.jobs.processing] Transient error for SAEVW0008587: HTTPSConnectionPool(host='eadaptor-prod.glweststardubai.com', port=443): Read timed out. (read timeout=60)
+[2026-03-27 14:25:46,550] [WARNING] [pipeline.cargowise] Document fetch failed for SAEVW0024619: HTTPSConnectionPool(host='eadaptor-prod.glweststardubai.com', port=443): Read timed out. (read timeout=60)
+[2026-03-27 14:25:46,971] [WARNING] [pipeline.cargowise] Document fetch failed for SODVW0027110: HTTPSConnectionPool(host='eadaptor-prod.glweststardubai.com', port=443): Read timed out. (read timeout=60)
+[2026-03-27 14:25:47,059] [WARNING] [pipeline.jobs.processing] Transient error for SODVW0027533: HTTPSConnectionPool(host='eadaptor-prod.glweststardubai.com', port=443): Read timed out. (read timeout=60)
+[2026-03-27 14:26:15,551] [WARNING] [pipeline.jobs.processing] Transient error for SAEVW0020381: HTTPSConnectionPool(host='eadaptor-prod.glweststardubai.com', port=443): Read timed out. (read timeout=60)
+[2026-03-27 14:51:50,056] [ERROR] [pipeline.jobs.processing] Failed processing SAEVW0025702: (1406, "Data too long for column 'steamshipLine' at row 1")
+[2026-03-27 14:53:19,414] [WARNING] [pipeline.cargowise] Document fetch failed for SODVW0025811: 500 Server Error: Internal Server Error for url: https://eadaptor-prod.glweststardubai.com/eAdaptor
+[2026-03-27 14:53:19,842] [WARNING] [pipeline.cargowise] Document fetch failed for SAEVW0019429: 500 Server Error: Internal Server Error for url: https://eadaptor-prod.glweststardubai.com/eAdaptor
+[2026-03-27 15:38:01,163] [INFO] [pipeline.notifications] Email sent: [Pipeline Alert] excel_ingest — 7 of 7756 shipments failed
+[2026-03-27 15:38:01,168] [INFO] [pipeline.jobs.processing] [excel_ingest] Done: 7749 completed, 7 failed
+[2026-03-27 15:38:02,459] [INFO] [pipeline.jobs.processing] [air_sync] Processing 5191 shipments
+[2026-03-27 15:39:41,095] [INFO] [pipeline.jobs.processing] [air_sync] Processing 5191 shipments
+[2026-03-27 15:39:59,197] [INFO] [pipeline.jobs.sync_sea] [SEA SYNC] Found 82 critical shipments
+[2026-03-27 15:39:59,210] [INFO] [pipeline.jobs.processing] [sea_sync] Processing 82 shipments
+[2026-03-27 15:40:32,999] [INFO] [pipeline.jobs.sync_sea] [SEA REVERSE] Found 661 reverse shipments
+[2026-03-27 15:40:33,098] [INFO] [pipeline.jobs.processing] [sea_reverse] Processing 661 shipments
+[2026-03-27 15:43:16,002] [INFO] [pipeline.jobs.processing] [air_sync] Processing 5191 shipments
+[2026-03-27 15:48:08,417] [INFO] [pipeline.jobs.processing] [air_sync] Processing 5191 shipments
+[2026-03-27 15:48:23,325] [INFO] [pipeline.jobs.sync_sea] [SEA SYNC] Found 82 critical shipments
+[2026-03-27 15:48:23,341] [INFO] [pipeline.jobs.processing] [sea_sync] Processing 82 shipments
+[2026-03-27 15:48:38,848] [INFO] [pipeline.jobs.sync_sea] [SEA REVERSE] Found 661 reverse shipments
+[2026-03-27 15:48:38,927] [INFO] [pipeline.jobs.processing] [sea_reverse] Processing 661 shipments
+[2026-03-27 15:54:11,923] [INFO] [pipeline.jobs.excel_ingest] 📂 Using LOCAL file: /Users/ashishsrivastava/Downloads/vin_world_shipment_dashboard/ShipmetList.xlsx
+[2026-03-27 15:54:12,079] [INFO] [pipeline.excel] Parsed 7756 shipment IDs from Excel
+[2026-03-27 15:54:12,238] [INFO] [pipeline.jobs.excel_ingest] Parsed 7756 shipments from ShipmetList.xlsx
+[2026-03-27 15:54:12,258] [INFO] [pipeline.jobs.excel_ingest] Found 7 new shipments out of 7756
+[2026-03-27 15:54:12,261] [INFO] [pipeline.jobs.processing] [excel_ingest] Processing 7 shipments
+[2026-03-27 15:54:18,901] [ERROR] [pipeline.jobs.processing] Failed processing SAEVW0025702: (1406, "Data too long for column 'steamshipLine' at row 1")
+[2026-03-27 15:54:24,090] [INFO] [pipeline.notifications] Email sent: [Pipeline Alert] excel_ingest — 1 of 7 shipments failed
+[2026-03-27 15:54:24,091] [INFO] [pipeline.jobs.processing] [excel_ingest] Done: 6 completed, 1 failed
+[2026-03-27 15:54:25,194] [INFO] [pipeline.jobs.processing] [air_sync] Processing 5197 shipments
+[2026-03-27 15:54:26,304] [ERROR] [pipeline.jobs.processing] Failed processing SAEVW0024305: 500 Server Error: Internal Server Error for url: https://eadaptor-prod.glweststardubai.com/eAdaptor
+[2026-03-27 15:54:26,305] [ERROR] [pipeline.jobs.processing] Failed processing SAIVW0025455: 500 Server Error: Internal Server Error for url: https://eadaptor-prod.glweststardubai.com/eAdaptor
+[2026-03-27 15:54:26,312] [ERROR] [pipeline.jobs.processing] Failed processing SAEVW0023062: 500 Server Error: Internal Server Error for url: https://eadaptor-prod.glweststardubai.com/eAdaptor
+[2026-03-27 15:54:26,315] [ERROR] [pipeline.jobs.processing] Failed processing SAEVW0017960: 500 Server Error: Internal Server Error for url: https://eadaptor-prod.glweststardubai.com/eAdaptor
+[2026-03-27 15:56:25,608] [INFO] [pipeline.jobs.excel_ingest] 📂 Using LOCAL file: /Users/ashishsrivastava/Downloads/vin_world_shipment_dashboard/ShipmetList.xlsx
+[2026-03-27 15:56:25,822] [INFO] [pipeline.excel] Parsed 7756 shipment IDs from Excel
+[2026-03-27 15:56:25,988] [INFO] [pipeline.jobs.excel_ingest] Parsed 7756 shipments from ShipmetList.xlsx
+[2026-03-27 15:56:26,007] [INFO] [pipeline.jobs.excel_ingest] Found 1 new shipments out of 7756
+[2026-03-27 15:56:26,009] [INFO] [pipeline.jobs.processing] [excel_ingest] Processing 1 shipments
+[2026-03-27 15:56:29,251] [ERROR] [pipeline.jobs.processing] Failed processing SAEVW0025702: (1406, "Data too long for column 'steamshipLine' at row 1")
+[2026-03-27 15:56:34,032] [INFO] [pipeline.notifications] Email sent: [Pipeline Alert] excel_ingest — 1 of 1 shipments failed
+[2026-03-27 15:56:34,033] [INFO] [pipeline.jobs.processing] [excel_ingest] Done: 0 completed, 1 failed
+[2026-03-27 15:56:35,122] [INFO] [pipeline.jobs.processing] [air_sync] Processing 5197 shipments
+[2026-03-27 15:57:24,053] [INFO] [pipeline.jobs.processing] [air_sync] Processing 5197 shipments
+[2026-03-27 15:57:43,933] [INFO] [pipeline.jobs.sync_sea] [SEA SYNC] Found 82 critical shipments
+[2026-03-27 15:57:43,945] [INFO] [pipeline.jobs.processing] [sea_sync] Processing 82 shipments
+[2026-03-27 15:57:59,477] [INFO] [pipeline.jobs.sync_sea] [SEA REVERSE] Found 661 reverse shipments
+[2026-03-27 15:57:59,556] [INFO] [pipeline.jobs.processing] [sea_reverse] Processing 661 shipments
+[2026-03-27 16:00:47,857] [INFO] [pipeline.jobs.excel_ingest] 📂 Using LOCAL file: /Users/ashishsrivastava/Downloads/vin_world_shipment_dashboard/ShipmetList.xlsx
+[2026-03-27 16:00:48,021] [INFO] [pipeline.excel] Parsed 7756 shipment IDs from Excel
+[2026-03-27 16:00:48,196] [INFO] [pipeline.jobs.excel_ingest] Parsed 7756 shipments from ShipmetList.xlsx
+[2026-03-27 16:00:48,216] [INFO] [pipeline.jobs.excel_ingest] Found 1 new shipments out of 7756
+[2026-03-27 16:00:48,218] [INFO] [pipeline.jobs.processing] [excel_ingest] Processing 1 shipments
+[2026-03-27 16:00:51,729] [ERROR] [pipeline.jobs.processing] Failed processing SAEVW0025702: (1406, "Data too long for column 'steamshipLine' at row 1")
+[2026-03-27 16:00:57,038] [INFO] [pipeline.notifications] Email sent: [Pipeline Alert] excel_ingest — 1 of 1 shipments failed
+[2026-03-27 16:00:57,040] [INFO] [pipeline.jobs.processing] [excel_ingest] Done: 0 completed, 1 failed
+[2026-03-27 16:00:58,139] [INFO] [pipeline.jobs.processing] [air_sync] Processing 5197 shipments
+[2026-03-27 16:27:15,001] [WARNING] [pipeline.jobs.processing] Transient error for SAEVW0018037: HTTPSConnectionPool(host='eadaptor-prod.glweststardubai.com', port=443): Read timed out. (read timeout=60)
+[2026-03-27 16:27:15,742] [WARNING] [pipeline.jobs.processing] Transient error for SADVW0022164: HTTPSConnectionPool(host='eadaptor-prod.glweststardubai.com', port=443): Read timed out. (read timeout=60)
+[2026-03-27 16:27:16,243] [WARNING] [pipeline.jobs.processing] Transient error for SAIVW0020225: HTTPSConnectionPool(host='eadaptor-prod.glweststardubai.com', port=443): Read timed out. (read timeout=60)
+[2026-03-27 16:27:16,967] [WARNING] [pipeline.cargowise] Document fetch failed for SAEVW0019723: HTTPSConnectionPool(host='eadaptor-prod.glweststardubai.com', port=443): Read timed out. (read timeout=60)
+[2026-03-27 16:27:17,072] [WARNING] [pipeline.jobs.processing] Transient error for SAEVW0024307: HTTPSConnectionPool(host='eadaptor-prod.glweststardubai.com', port=443): Read timed out.
+[2026-03-27 16:28:16,372] [INFO] [pipeline.jobs.excel_ingest] 📂 Using LOCAL file: /Users/ashishsrivastava/Downloads/vin_world_shipment_dashboard/ShipmetList.xlsx
+[2026-03-27 16:28:16,536] [INFO] [pipeline.excel] Parsed 7756 shipment IDs from Excel
+[2026-03-27 16:28:16,692] [INFO] [pipeline.jobs.excel_ingest] Parsed 7756 shipments from ShipmetList.xlsx
+[2026-03-27 16:28:16,711] [INFO] [pipeline.jobs.excel_ingest] Found 1 new shipments out of 7756
+[2026-03-27 16:28:16,713] [INFO] [pipeline.jobs.processing] [excel_ingest] Processing 1 shipments
+[2026-03-27 16:28:20,404] [ERROR] [pipeline.jobs.processing] Failed processing SAEVW0025702: (1406, "Data too long for column 'steamshipLine' at row 1")
+[2026-03-27 16:28:25,152] [INFO] [pipeline.notifications] Email sent: [Pipeline Alert] excel_ingest — 1 of 1 shipments failed
+[2026-03-27 16:28:25,152] [INFO] [pipeline.jobs.processing] [excel_ingest] Done: 0 completed, 1 failed
+[2026-03-27 16:28:26,303] [INFO] [pipeline.jobs.processing] [air_sync] Processing 5197 shipments
+[2026-03-27 16:29:11,011] [INFO] [pipeline.jobs.excel_ingest] 📂 Using LOCAL file: /Users/ashishsrivastava/Downloads/vin_world_shipment_dashboard/ShipmetList.xlsx
+[2026-03-27 16:29:11,157] [INFO] [pipeline.excel] Parsed 7756 shipment IDs from Excel
+[2026-03-27 16:29:11,308] [INFO] [pipeline.jobs.excel_ingest] Parsed 7756 shipments from ShipmetList.xlsx
+[2026-03-27 16:29:11,326] [INFO] [pipeline.jobs.excel_ingest] Found 1 new shipments out of 7756
+[2026-03-27 16:29:11,327] [INFO] [pipeline.jobs.excel_ingest] Download complete: 7756 total, 1 new
+[2026-03-27 16:29:46,662] [INFO] [pipeline.jobs.excel_ingest] 📂 Using LOCAL file: /Users/ashishsrivastava/Downloads/vin_world_shipment_dashboard/ShipmetList.xlsx
+[2026-03-27 16:29:46,812] [INFO] [pipeline.excel] Parsed 7756 shipment IDs from Excel
+[2026-03-27 16:29:46,957] [INFO] [pipeline.jobs.excel_ingest] Parsed 7756 shipments from ShipmetList.xlsx
+[2026-03-27 16:29:46,973] [INFO] [pipeline.jobs.excel_ingest] Found 1 new shipments out of 7756
+[2026-03-27 16:29:46,976] [INFO] [pipeline.jobs.processing] [excel_ingest] Processing 1 shipments
+[2026-03-27 16:29:50,696] [ERROR] [pipeline.jobs.processing] Failed processing SAEVW0025702: (1406, "Data too long for column 'steamshipLine' at row 1")
+[2026-03-27 16:30:47,159] [INFO] [pipeline.jobs.excel_ingest] 📂 Using LOCAL file: /Users/ashishsrivastava/Downloads/vin_world_shipment_dashboard/ShipmetList.xlsx
+[2026-03-27 16:30:47,315] [INFO] [pipeline.excel] Parsed 7756 shipment IDs from Excel
+[2026-03-27 16:30:47,472] [INFO] [pipeline.jobs.excel_ingest] Parsed 7756 shipments from ShipmetList.xlsx
+[2026-03-27 16:30:47,491] [INFO] [pipeline.jobs.excel_ingest] Found 1 new shipments out of 7756
+[2026-03-27 16:30:47,492] [INFO] [pipeline.jobs.excel_ingest] Download complete: 7756 total, 1 new
+[2026-03-27 16:31:30,208] [INFO] [pipeline.sftp] SFTP connected, working directory: /vinworld_shipment_dashboard
+[2026-03-27 16:31:33,408] [INFO] [pipeline.sftp] Downloaded Shipment Profile Report (2026-03-27 10-00-25).XLSX to /tmp/pipeline_downloads/Shipment Profile Report (2026-03-27 10-00-25).XLSX
+[2026-03-27 16:31:33,542] [INFO] [pipeline.excel] Parsed 1295 shipment IDs from Excel
+[2026-03-27 16:31:33,584] [INFO] [pipeline.jobs.excel_ingest] Parsed 1295 shipments from Shipment Profile Report (2026-03-27 10-00-25).XLSX
+[2026-03-27 16:31:34,083] [INFO] [pipeline.sftp] Deleted Shipment Profile Report (2026-03-27 10-00-25).XLSX from SFTP
+[2026-03-27 16:31:34,122] [INFO] [pipeline.jobs.excel_ingest] Found 479 new shipments out of 1295
+[2026-03-27 16:31:34,122] [INFO] [pipeline.sftp] SFTP connection closed
+[2026-03-27 16:31:34,123] [INFO] [pipeline.jobs.excel_ingest] Download complete: 1295 total, 479 new
+[2026-03-27 16:31:54,146] [INFO] [pipeline.sftp] SFTP connected, working directory: /vinworld_shipment_dashboard
+[2026-03-27 16:31:55,506] [WARNING] [pipeline.sftp] No matching Excel file found on SFTP
+[2026-03-27 16:31:55,507] [WARNING] [pipeline.jobs.excel_ingest] No Excel file to process
+[2026-03-27 16:31:55,508] [INFO] [pipeline.sftp] SFTP connection closed
+[2026-03-27 16:31:56,610] [INFO] [pipeline.jobs.processing] [air_sync] Processing 5197 shipments
+[2026-03-27 16:35:32,873] [INFO] [pipeline.sftp] SFTP connected, working directory: /vinworld_shipment_dashboard
+[2026-03-27 16:35:34,143] [WARNING] [pipeline.sftp] No matching Excel file found on SFTP
+[2026-03-27 16:35:34,143] [WARNING] [pipeline.jobs.excel_ingest] No Excel file to process
+[2026-03-27 16:35:34,144] [INFO] [pipeline.sftp] SFTP connection closed
+[2026-03-27 16:37:47,570] [INFO] [pipeline.sftp] SFTP connected, working directory: /vinworld_shipment_dashboard
+[2026-03-27 16:37:48,923] [WARNING] [pipeline.sftp] No matching Excel file found on SFTP
+[2026-03-27 16:37:48,923] [WARNING] [pipeline.jobs.excel_ingest] No Excel file to process
+[2026-03-27 16:37:48,924] [INFO] [pipeline.sftp] SFTP connection closed
+[2026-03-27 16:38:03,519] [INFO] [pipeline.sftp] SFTP connected, working directory: /vinworld_shipment_dashboard
+[2026-03-27 16:38:04,738] [WARNING] [pipeline.sftp] No matching Excel file found on SFTP
+[2026-03-27 16:38:04,739] [WARNING] [pipeline.jobs.excel_ingest] No Excel file to process
+[2026-03-27 16:38:04,739] [INFO] [pipeline.sftp] SFTP connection closed
+[2026-03-27 16:38:45,297] [INFO] [pipeline.sftp] SFTP connected, working directory: /vinworld_shipment_dashboard
+[2026-03-27 16:38:46,644] [WARNING] [pipeline.sftp] No matching Excel file found on SFTP
+[2026-03-27 16:38:46,644] [WARNING] [pipeline.jobs.excel_ingest] No Excel file to process
+[2026-03-27 16:38:46,645] [INFO] [pipeline.sftp] SFTP connection closed
+[2026-03-27 16:42:08,437] [INFO] [pipeline.sftp] SFTP connected, working directory: /vinworld_shipment_dashboard
+[2026-03-27 16:42:09,818] [WARNING] [pipeline.sftp] No matching Excel file found on SFTP
+[2026-03-27 16:42:09,819] [WARNING] [pipeline.jobs.excel_ingest] No Excel file to process
+[2026-03-27 16:42:09,820] [INFO] [pipeline.sftp] SFTP connection closed
+[2026-03-27 16:44:08,912] [INFO] [pipeline.sftp] SFTP connected, working directory: /vinworld_shipment_dashboard
+[2026-03-27 16:44:10,241] [WARNING] [pipeline.sftp] No matching Excel file found on SFTP
+[2026-03-27 16:44:10,242] [WARNING] [pipeline.jobs.excel_ingest] No Excel file to process
+[2026-03-27 16:44:10,242] [INFO] [pipeline.sftp] SFTP connection closed
+[2026-03-27 16:59:03,505] [INFO] [pipeline.sftp] SFTP connected, working directory: /vinworld_shipment_dashboard
+[2026-03-27 16:59:04,773] [WARNING] [pipeline.sftp] No matching Excel file found on SFTP
+[2026-03-27 16:59:04,774] [WARNING] [pipeline.jobs.excel_ingest] No Excel file to process
+[2026-03-27 16:59:04,775] [INFO] [pipeline.sftp] SFTP connection closed
+[2026-03-27 17:16:41,284] [INFO] [pipeline.sftp] SFTP connected, working directory: /vinworld_shipment_dashboard
+[2026-03-27 17:16:44,382] [INFO] [pipeline.sftp] Downloaded Shipment Profile Report (2026-03-27 10-00-25).XLSX to /tmp/pipeline_downloads/Shipment Profile Report (2026-03-27 10-00-25).XLSX
+[2026-03-27 17:16:44,503] [INFO] [pipeline.excel] Parsed 1295 shipment IDs from Excel
+[2026-03-27 17:16:44,558] [INFO] [pipeline.jobs.excel_ingest] Parsed 1295 shipments from Shipment Profile Report (2026-03-27 10-00-25).XLSX
+[2026-03-27 17:16:45,047] [INFO] [pipeline.sftp] Deleted Shipment Profile Report (2026-03-27 10-00-25).XLSX from SFTP
+[2026-03-27 17:16:45,111] [INFO] [pipeline.jobs.excel_ingest] Found 479 new shipments out of 1295
+[2026-03-27 17:16:45,112] [INFO] [pipeline.sftp] SFTP connection closed
+[2026-03-27 17:16:45,113] [INFO] [pipeline.jobs.excel_ingest] Download complete: 1295 total, 479 new
+[2026-03-27 17:17:32,402] [INFO] [pipeline.sftp] SFTP connected, working directory: /vinworld_shipment_dashboard
+[2026-03-27 17:17:33,642] [WARNING] [pipeline.sftp] No matching Excel file found on SFTP
+[2026-03-27 17:17:33,643] [WARNING] [pipeline.jobs.excel_ingest] No Excel file to process
+[2026-03-27 17:17:33,643] [INFO] [pipeline.sftp] SFTP connection closed
+[2026-03-27 17:17:34,958] [INFO] [pipeline.jobs.processing] [air_sync] Processing 5197 shipments
+[2026-03-27 17:17:36,138] [ERROR] [pipeline.jobs.processing] Failed processing SAEVW0023062: 500 Server Error: Internal Server Error for url: https://eadaptor-prod.glweststardubai.com/eAdaptor
+[2026-03-27 17:17:36,145] [ERROR] [pipeline.jobs.processing] Failed processing SAEVW0017960: 500 Server Error: Internal Server Error for url: https://eadaptor-prod.glweststardubai.com/eAdaptor
+[2026-03-27 17:17:36,145] [ERROR] [pipeline.jobs.processing] Failed processing SAIVW0025455: 500 Server Error: Internal Server Error for url: https://eadaptor-prod.glweststardubai.com/eAdaptor
+[2026-03-27 17:17:36,145] [ERROR] [pipeline.jobs.processing] Failed processing SAEVW0021887: 500 Server Error: Internal Server Error for url: https://eadaptor-prod.glweststardubai.com/eAdaptor
+[2026-03-27 17:20:09,133] [INFO] [pipeline.sftp] SFTP connected, working directory: /vinworld_shipment_dashboard
+[2026-03-27 17:20:10,361] [WARNING] [pipeline.sftp] No matching Excel file found on SFTP
+[2026-03-27 17:20:10,362] [WARNING] [pipeline.jobs.excel_ingest] No Excel file to process
+[2026-03-27 17:20:10,363] [INFO] [pipeline.sftp] SFTP connection closed
+[2026-03-27 17:20:11,492] [INFO] [pipeline.jobs.processing] [air_sync] Processing 5197 shipments
+[2026-03-27 17:22:03,503] [INFO] [pipeline.sftp] SFTP connected, working directory: /vinworld_shipment_dashboard
+[2026-03-27 17:22:06,727] [INFO] [pipeline.sftp] Downloaded Shipment Profile Report (2026-03-27 10-00-25).XLSX to /tmp/pipeline_downloads/Shipment Profile Report (2026-03-27 10-00-25).XLSX
+[2026-03-27 17:22:06,863] [INFO] [pipeline.excel] Parsed 1295 shipment IDs from Excel
+[2026-03-27 17:22:06,906] [INFO] [pipeline.jobs.excel_ingest] Parsed 1295 shipments from Shipment Profile Report (2026-03-27 10-00-25).XLSX
+[2026-03-27 17:22:07,438] [INFO] [pipeline.sftp] Deleted Shipment Profile Report (2026-03-27 10-00-25).XLSX from SFTP
+[2026-03-27 17:22:07,468] [INFO] [pipeline.jobs.excel_ingest] Found 479 new shipments out of 1295
+[2026-03-27 17:22:07,468] [INFO] [pipeline.sftp] SFTP connection closed
+[2026-03-27 17:22:07,571] [INFO] [pipeline.jobs.processing] [excel_ingest] Processing 479 shipments
+[2026-03-27 17:27:05,449] [INFO] [pipeline.jobs.processing] [excel_ingest] Done: 479 completed, 0 failed
+[2026-03-27 17:27:06,663] [INFO] [pipeline.jobs.processing] [air_sync] Processing 5321 shipments

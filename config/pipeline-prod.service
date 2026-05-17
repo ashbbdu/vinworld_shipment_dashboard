@@ -1,0 +1,15 @@
+[Unit]
+Description=VIN World Shipment Pipeline (PROD)
+After=network.target
+
+[Service]
+Type=simple
+Environment=PIPELINE_ENV=prod
+ExecStart=/usr/bin/python3 -m pipeline.service
+WorkingDirectory=/home/ubuntu/vin_world_shipment_dashboard
+Restart=always
+RestartSec=10
+User=ubuntu
+
+[Install]
+WantedBy=multi-user.target

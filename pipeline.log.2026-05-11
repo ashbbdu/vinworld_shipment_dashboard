@@ -1,0 +1,17 @@
+[2026-05-11 20:53:11,639] [INFO] [pipeline.sftp] SFTP connected, working directory: /vinworld_shipment_dashboard
+[2026-05-11 20:53:12,692] [WARNING] [pipeline.sftp] No matching Excel file found on SFTP
+[2026-05-11 20:53:12,692] [WARNING] [pipeline.jobs.excel_ingest] No Excel file to process
+[2026-05-11 20:53:12,692] [INFO] [pipeline.sftp] SFTP connection closed
+[2026-05-11 20:53:58,266] [INFO] [pipeline.sftp] SFTP connected, working directory: /vinworld_shipment_dashboard
+[2026-05-11 20:53:59,313] [WARNING] [pipeline.sftp] No matching Excel file found on SFTP
+[2026-05-11 20:53:59,314] [WARNING] [pipeline.jobs.excel_ingest] No Excel file to process
+[2026-05-11 20:53:59,315] [INFO] [pipeline.sftp] SFTP connection closed
+[2026-05-11 20:55:17,026] [INFO] [pipeline.sftp] SFTP connected, working directory: /vinworld_shipment_dashboard
+[2026-05-11 20:55:18,083] [WARNING] [pipeline.sftp] No matching Excel file found on SFTP
+[2026-05-11 20:55:18,083] [WARNING] [pipeline.jobs.excel_ingest] No Excel file to process
+[2026-05-11 20:55:18,084] [INFO] [pipeline.sftp] SFTP connection closed
+[2026-05-11 20:55:47,370] [INFO] [pipeline.excel] Parsed 880 shipment IDs from Excel
+[2026-05-11 20:56:18,022] [INFO] [pipeline.excel] Parsed 880 shipment IDs from Excel
+[2026-05-11 20:56:55,237] [INFO] [pipeline.excel] Parsed 880 shipment IDs from Excel
+[2026-05-11 20:57:27,621] [INFO] [pipeline.excel] Parsed 23 shipment IDs from Excel
+[2026-05-11 20:58:49,922] [INFO] [pipeline.jobs.sync_sea] [SEA REVERSE] Found 61 reverse shipments

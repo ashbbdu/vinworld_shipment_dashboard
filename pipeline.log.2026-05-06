@@ -1,0 +1,14 @@
+[2026-05-06 09:24:07,311] [INFO] [pipeline.jobs.sync_sea] [SEA SYNC] Found 55 critical shipments
+[2026-05-06 09:26:32,703] [INFO] [pipeline.jobs.sync_sea] [SEA REVERSE] Found 88 reverse shipments
+[2026-05-06 09:28:01,584] [INFO] [pipeline.jobs.sync_sea] [SEA REVERSE] Found 88 reverse shipments
+[2026-05-06 09:30:31,659] [INFO] [pipeline.jobs.sync_sea] [SEA REVERSE] Found 88 reverse shipments
+[2026-05-06 09:34:20,677] [INFO] [pipeline.jobs.sync_sea] [SEA REVERSE] Found 88 reverse shipments
+[2026-05-06 09:34:33,804] [INFO] [pipeline.jobs.sync_sea] [SEA SYNC] Found 55 critical shipments
+[2026-05-06 15:03:15,942] [INFO] [pipeline.excel] Parsed 2 shipment IDs from Excel
+[2026-05-06 15:08:41,807] [INFO] [pipeline.jobs.sync_sea] [SEA SYNC] Found 8 critical shipments
+[2026-05-06 15:09:00,613] [INFO] [pipeline.jobs.sync_sea] [SEA REVERSE] Found 34 reverse shipments
+[2026-05-06 15:15:07,025] [INFO] [pipeline.jobs.sync_sea] [SEA REVERSE] Found 34 reverse shipments
+[2026-05-06 15:15:17,285] [INFO] [pipeline.jobs.sync_sea] [SEA SYNC] Found 8 critical shipments
+[2026-05-06 17:12:51,393] [INFO] [pipeline.jobs.sync_sea] [SEA SYNC] Found 7 critical shipments
+[2026-05-06 17:13:38,673] [INFO] [pipeline.jobs.sync_sea] [SEA REVERSE] Found 35 reverse shipments
+[2026-05-06 18:25:43,607] [INFO] [pipeline.jobs.sync_sea] [SEA REVERSE] Found 35 reverse shipments

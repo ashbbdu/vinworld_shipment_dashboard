@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -r \"import\\\\|from\" /home/xavier/workspace/special/vin_world_shipment_dashboard/*.py)",
+      "Bash(git init:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(sudo mysql:*)",
+      "Bash(grep -c \"^\\\\s*\\\\`\" /home/xavier/workspace/special/vin_world_shipment_dashboard/sql/tables.sql)",
+      "Bash(grep -E \"^\\\\s+\\\\`\\\\w+\" /home/xavier/workspace/special/vin_world_shipment_dashboard/sql/tables.sql)",
+      "Bash(grep -cE \"^\\\\s+\\\\`\\\\w+\" /home/xavier/workspace/special/vin_world_shipment_dashboard/sql/tables.sql)",
+      "Bash(grep -cE \"^\\\\s+\\\\`\")",
+      "Bash(awk '/CREATE TABLE `cargowise_containers_new`/,/^\\\\\\)/' /home/xavier/workspace/special/vin_world_shipment_dashboard/sql/tables.sql)",
+      "Bash(grep -E \"^\\\\s+\\\\`\")",
+      "Bash(grep -c '`' /home/xavier/workspace/special/vin_world_shipment_dashboard/sql/tables.sql)",
+      "Bash(grep '^\\\\s*`')",
+      "Bash(python3 -c \"print\\(6+4+4+6+8+8+8+6+14+6+8+10+3+4+3+12\\)\")",
+      "Bash(git checkout:*)",
+      "Bash(python:*)",
+      "Bash(python3:*)",
+      "Bash(git -C /home/xavier/workspace/special/vin_world_shipment_dashboard branch)",
+      "Bash(pip show:*)",
+      "Bash(pip install:*)",
+      "Bash(git rm:*)",
+      "Bash(git log:*)",
+      "Bash(git mv:*)"
+    ]
+  }
+}

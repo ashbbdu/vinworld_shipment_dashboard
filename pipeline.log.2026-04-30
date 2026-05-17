@@ -1,0 +1,11 @@
+[2026-04-30 12:45:27,332] [ERROR] [pipeline.jobs.excel_ingest] Excel ingest failed: (1146, "Table 'lvs_uat_local.excel_imports' doesn't exist")
+[2026-04-30 12:46:00,979] [ERROR] [pipeline.jobs.excel_ingest] Excel ingest failed: (1146, "Table 'lvs_uat_local.excel_imports' doesn't exist")
+[2026-04-30 12:48:45,887] [INFO] [pipeline.excel] Parsed 34 shipment IDs from Excel
+[2026-04-30 13:18:47,661] [INFO] [pipeline.excel] Parsed 34 shipment IDs from Excel
+[2026-04-30 14:35:18,838] [INFO] [pipeline.excel] Parsed 34 shipment IDs from Excel
+[2026-04-30 14:53:46,874] [INFO] [pipeline.excel] Parsed 40 shipment IDs from Excel
+[2026-04-30 14:59:46,121] [INFO] [pipeline.excel] Parsed 4 shipment IDs from Excel
+[2026-04-30 15:02:38,579] [INFO] [pipeline.excel] Parsed 25 shipment IDs from Excel
+[2026-04-30 15:13:08,604] [INFO] [pipeline.excel] Parsed 20 shipment IDs from Excel
+[2026-04-30 15:16:58,309] [INFO] [pipeline.excel] Parsed 19 shipment IDs from Excel
+[2026-04-30 15:19:04,134] [INFO] [pipeline.excel] Parsed 19 shipment IDs from Excel
