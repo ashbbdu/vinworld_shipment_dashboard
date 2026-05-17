@@ -1,8 +1,7 @@
 # Environment
 .env
 *.env
-config/.env.prod
-config/.env.uat
+config/.env*
 
 # Logs
 *.log
