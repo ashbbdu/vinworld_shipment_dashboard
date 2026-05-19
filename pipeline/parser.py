@@ -251,7 +251,8 @@ def _extract_ports(shipment: Dict, sub: Dict) -> Dict:
         elif destination_country == "US":
             trade_type = "Import"
         else:
-            trade_type = "CrossTrade"
+            # trade_type = "CrossTrade"
+            trade_type = "Foreign To Foreign"
 
     return {
         "JS_RL_NKOrigin": JS_RL_NKOrigin,
