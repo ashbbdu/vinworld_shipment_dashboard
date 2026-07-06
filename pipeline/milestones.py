@@ -1614,12 +1614,82 @@ def get_last_completed_event(milestones, transport_mode, service_level, trade_ty
 # MAIN REFORMED BUILDER
 # ---------------------------------------------------------------------------
 
+# ---------------------------------------------------------------------------
+# SEA EXPORT — DEDICATED BUILDER
+# ---------------------------------------------------------------------------
+
+_SEA_EXPORT_FIELD_MAP = {
+    # Estimated Milestones -> planned_map
+    "ETD Custom(A)":        ("planned", "ATD Custom"),
+    "ETA Custom(A)":        ("planned", "ATA Custom"),
+    "Est. Pick up Date(M)": ("planned", "Pick up Date"),
+    "Est. Gate In Rail(M)": ("planned", "Gate In Rail"),
+    "Est. Gate In Port(M)": ("planned", "Gate In Port"),
+    "Est. Delivery(M)":     ("planned", "Delivered"),
+    # Actual Milestones -> actual_map
+    "Opened(A)":       ("actual", "Opened"),
+    "Pick up Date(M)": ("actual", "Pick up Date"),
+    "Gate In Rail(M)": ("actual", "Gate In Rail"),
+    "Gate In Port(A)": ("actual", "Gate In Port"),
+    "ATD Custom(A)":   ("actual", "ATD Custom"),
+    "ATA Custom(A)":   ("actual", "ATA Custom"),
+    "Delivered(A)":    ("actual", "Delivered"),
+}
+
+
+def build_sea_export_milestones_reformed(customized_fields, job_opened_date=None):
+    """Build SEA Export milestones from CargoWise Custom Fields.
+
+    Uses an exact-match lookup on the 13 known SEA Export Custom Field keys;
+    ignores every other key. Emits the 7-event SEQUENCES["SEA_EXPORT"] sequence
+    with status, planned/actual dates, and per-row delay.
+    """
+    actual_map = {}
+    planned_map = {}
+
+    for field in safe_list(customized_fields):
+        key = safe_text(field.get("Key"))
+        value = safe_text(field.get("Value"))
+        if not key or not value:
+            continue
+        key = key.replace("( A )", "(A)").replace("( M )", "(M)").strip()
+        mapping = _SEA_EXPORT_FIELD_MAP.get(key)
+        if not mapping:
+            continue
+        target, canonical = mapping
+        if target == "actual":
+            actual_map[canonical] = value
+        else:
+            planned_map[canonical] = value
+
+    if not actual_map.get("Opened") and job_opened_date:
+        actual_map["Opened"] = job_opened_date
+
+    milestones = []
+    for cf_key, label, _, _ in SEQUENCES["SEA_EXPORT"]:
+        actual = actual_map.get(cf_key)
+        planned = planned_map.get(cf_key)
+        delay = calculate_delay_days(planned, actual) if actual and planned else None
+        milestones.append({
+            "eventStatus": label,
+            "customField": cf_key,
+            "plannedDate": planned,
+            "actualDate": actual,
+            "status": "Completed" if actual else "Pending",
+            "delay": delay,
+        })
+    return milestones
+
+
 def build_milestones_reformed(transport_mode, service_level, customized_fields , job_opened_date=None, trade_type=None):
 
     transport_mode = (transport_mode or "").upper()
 
     if not transport_mode:
         return []
+
+    if _is_sea_export(transport_mode, trade_type):
+        return build_sea_export_milestones_reformed(customized_fields, job_opened_date)
 
     is_export = _is_sea_export(transport_mode, trade_type)
 
