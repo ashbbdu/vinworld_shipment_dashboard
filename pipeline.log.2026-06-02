@@ -1,0 +1,5 @@
+[2026-06-02 21:03:33,786] [INFO] [pipeline.jobs.sync_sea] [SEA REVERSE] Found 102 reverse shipments
+[2026-06-02 21:09:40,838] [INFO] [pipeline.jobs.sync_sea] [SEA SYNC] Found 76 critical shipments
+[2026-06-02 21:12:07,846] [INFO] [pipeline.jobs.sync_sea] [SEA REVERSE] Found 100 reverse shipments
+[2026-06-02 21:24:32,191] [INFO] [pipeline.excel] Parsed 1 shipment IDs from Excel
+[2026-06-02 21:28:59,894] [INFO] [pipeline.excel] Parsed 1 shipment IDs from Excel

@@ -631,7 +631,7 @@ def _is_valid_job_opened(job_opened):
 
 def _download_and_store(db, settings, job_run_id):
     USE_LOCAL_FILE = True
-    LOCAL_FILE_PATH = "/Users/ashishsrivastava/Documents/lavinstar_project/vin_world_shipment_dashboard/excel_files_latest/combined.xlsx"
+    LOCAL_FILE_PATH = "/Users/ashishsrivastava/Documents/lavinstar_project/vin_world_shipment_dashboard/excel_files_latest/test.xlsx"
 
     if USE_LOCAL_FILE:
         if not os.path.exists(LOCAL_FILE_PATH):
@@ -699,7 +699,7 @@ def run_download_and_ingest(db, cw_client, notifier, settings):
 
     # ✅ TOGGLE for local testing
     USE_LOCAL_FILE = True
-    LOCAL_FILE_PATH = "/Users/ashishsrivastava/Documents/lavinstar_project/vin_world_shipment_dashboard/excel_files_latest/combined.xlsx"
+    LOCAL_FILE_PATH = "/Users/ashishsrivastava/Documents/lavinstar_project/vin_world_shipment_dashboard/excel_files_latest/test.xlsx"
 
     try:
         sftp_context = None

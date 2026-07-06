@@ -176,11 +176,16 @@ def _extract_parties(shipment: Dict, sub: Dict) -> Dict:
             )
 
         # ✅ 2. Consignee
-        elif addr_type == "ConsigneeDocumentaryAddress":
+        # elif addr_type == "ConsigneeDocumentaryAddress":
+        #     consignee_id = first_non_null(consignee_id, safe_text(addr.get("OrganizationCode")))
+        #     consignee = first_non_null(consignee, safe_text(addr.get("CompanyName")))
+        #     deliverto = first_non_null(deliverto, format_address(addr))
+
+        elif addr_type == "ConsigneePickupDeliveryAddress":
             consignee_id = first_non_null(consignee_id, safe_text(addr.get("OrganizationCode")))
             consignee = first_non_null(consignee, safe_text(addr.get("CompanyName")))
             deliverto = first_non_null(deliverto, format_address(addr))
-
+            
         # ✅ 3. Shipper
         elif addr_type in [
             "ConsignorDocumentaryAddress",

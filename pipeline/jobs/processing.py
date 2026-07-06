@@ -670,6 +670,10 @@ def process_shipment(shipment_id, job_run_id, db, cw_client, settings, retry_cou
         # dep_date / arrival_date stay as planned (UNCHANGED)
         record["dep_date"] = atd.get("plannedDate")
         record["arrival_date"] = ata.get("plannedDate")
+        delivered = _get_milestone("Delivered")
+        record["delivery_date"] = delivered.get("actualDate")
+        print(f"🔎 [{shipment_id}] delivery_date set to {record['delivery_date']}")
+
  
         # Permanent planned backup
         record["planned_departure"] = atd.get("plannedDate")
